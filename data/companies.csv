@@ -1,0 +1,64 @@
+company_ref,name,domain,industry,numberofemployees,city,state
+CO-001,Keystone Cleaning Co,keystonecleaningco.example.com,Cleaning Services,4,Raleigh,NC
+CO-002,Vantage Roofing,vantageroofing.example.com,Roofing,,Columbus,OH
+CO-003,Highland Roofing,highlandroofing.example.com,Roofing,4,Portland,OR
+CO-004,Coastal Roofing,coastalroofing.example.com,Roofing,65,Tampa,FL
+CO-005,Summit Pest Control,summitpestcontrol.example.com,Pest Control,12,Raleigh,NC
+CO-006,Trailhead Pest Control,trailheadpestcontrol.example.com,Pest Control,12,Raleigh,NC
+CO-007,Keystone Pest Control,keystonepestcontrol.example.com,Pest Control,140,Tampa,FL
+CO-008,Metro Heating & Air,metroheatingandair.example.com,HVAC,4,Austin,TX
+CO-009,Cedarline Landscaping,cedarlinelandscaping.example.com,Landscaping,,Tampa,FL
+CO-010,Metro Electric,metroelectric.example.com,Electrical,65,Nashville,TN
+CO-011,Cedarline Roofing,cedarlineroofing.example.com,Roofing,140,Nashville,TN
+CO-012,Pinecrest Pest Control,pinecrestpestcontrol.example.com,Pest Control,7,Raleigh,NC
+CO-013,Pinecrest Plumbing,pinecrestplumbing.example.com,Plumbing,40,Columbus,OH
+CO-014,Oakridge Heating & Air,oakridgeheatingandair.example.com,hvac,4,Raleigh,NC
+CO-015,Riverbend Heating & Air,riverbendheatingandair.example.com,HVAC,90,Denver,CO
+CO-016,Silverline Heating & Air,silverlineheatingandair.example.com,HVAC,90,Portland,OR
+CO-017,Harborview Home Care,harborviewhomecare.example.com,home health care,25,Nashville,TN
+CO-018,Metro Landscaping,metrolandscaping.example.com,Landscaping,,Phoenix,AZ
+CO-019,Highland Pest Control,highlandpestcontrol.example.com,Pest Control,65,Columbus,OH
+CO-020,Prairie Landscaping,prairielandscaping.example.com,Landscaping,140,Tampa,FL
+CO-021,Bluewave Pest Control,bluewavepestcontrol.example.com,Pest Control,,Raleigh,NC
+CO-022,Riverbend Landscaping,riverbendlandscaping.example.com,Landscaping,140,Portland,OR
+CO-023,Willow Creek Roofing,willowcreekroofing.example.com,Roofing,12,Raleigh,NC
+CO-024,Anchor Electric,anchorelectric.example.com,Electrical,7,Portland,OR
+CO-025,Clearwater Roofing,clearwaterroofing.example.com,Roofing,12,Tampa,FL
+CO-026,Riverbend Pest Control,riverbendpestcontrol.example.com,Pest Control,40,Portland,OR
+CO-027,Northgate Plumbing,northgateplumbing.example.com,Plumbing,4,Phoenix,AZ
+CO-028,Stonebridge Home Care,stonebridgehomecare.example.com,Home Healthcare,12,Columbus,OH
+CO-029,Vantage Electric,vantageelectric.example.com,Electrical,7,Nashville,TN
+CO-030,Pinecrest Landscaping,pinecrestlandscaping.example.com,Landscaping,220,Denver,CO
+CO-031,Redstone Cleaning Co,redstonecleaningco.example.com,Janitorial,140,Tampa,FL
+CO-032,Northgate Landscaping,northgatelandscaping.example.com,Landscaping,12,Nashville,TN
+CO-033,Sunrise Cleaning Co,sunrisecleaningco.example.com,Cleaning Services,65,Austin,TX
+CO-034,Northgate Roofing,northgateroofing.example.com,Roofing,18,Tampa,FL
+CO-035,Lakewood Home Care,lakewoodhomecare.example.com,Home Healthcare,25,Portland,OR
+CO-036,Trailhead Home Care,trailheadhomecare.example.com,Home Healthcare,25,Phoenix,AZ
+CO-037,Harborview Pest Control,harborviewpestcontrol.example.com,Pest Control,,Denver,CO
+CO-038,Clearwater Landscaping,clearwaterlandscaping.example.com,Landscaping,140,Nashville,TN
+CO-039,Maple Leaf Pest Control,mapleleafpestcontrol.example.com,Pest Control,,Columbus,OH
+CO-040,Stonebridge Heating & Air,stonebridgeheatingandair.example.com,HVAC,40,Phoenix,AZ
+CO-041,Maple Leaf Home Care,mapleleafhomecare.example.com,home health care,4,Raleigh,NC
+CO-042,Prairie Roofing,prairieroofing.example.com,Roofing,90,Nashville,TN
+CO-043,Brightpath Heating & Air,brightpathheatingandair.example.com,HVAC,65,Denver,CO
+CO-044,Apex Home Care,apexhomecare.example.com,Home Healthcare,,Phoenix,AZ
+CO-045,Pinecrest Roofing,pinecrestroofing.example.com,Roofing,90,Denver,CO
+CO-046,Anchor Heating & Air,anchorheatingandair.example.com,HVAC,4,Nashville,TN
+CO-047,Summit Home Care,summithomecare.example.com,Home Healthcare,18,Raleigh,NC
+CO-048,Willow Creek Heating & Air,willowcreekheatingandair.example.com,HVAC,7,Denver,CO
+CO-049,Brightpath Plumbing,brightpathplumbing.example.com,Plumbing,,Nashville,TN
+CO-050,Cedarline Heating & Air,cedarlineheatingandair.example.com,hvac,140,Nashville,TN
+CO-051,Keystone Home Care,keystonehomecare.example.com,Home Healthcare,12,Raleigh,NC
+CO-052,Apex Roofing,apexroofing.example.com,Roofing,12,Columbus,OH
+CO-053,Pinecrest Cleaning Co,pinecrestcleaningco.example.com,Cleaning Services,,Raleigh,NC
+CO-054,Oakridge Home Care,oakridgehomecare.example.com,Home Healthcare,65,Nashville,TN
+CO-055,Maple Leaf Roofing,mapleleafroofing.example.com,Roofing,,Portland,OR
+CO-056,Highland Cleaning Co,highlandcleaningco.example.com,Cleaning Services,,Austin,TX
+CO-057,Pinecrest Heating & Air,pinecrestheatingandair.example.com,Heating & Cooling,4,Columbus,OH
+CO-058,Bluewave Landscaping,bluewavelandscaping.example.com,Landscaping,18,Raleigh,NC
+CO-059,Riverbend Cleaning Co,riverbendcleaningco.example.com,Janitorial,65,Nashville,TN
+CO-060,Foothill Heating & Air,foothillheatingandair.example.com,HVAC,,Portland,OR
+CO-D2,Highland Roofing LLC,highlandroofing.example.com,Roofing,4,Portland,OR
+CO-D11,Pinecrest Pest Control LLC,pinecrestpestcontrol.example.com,Pest Control,7,Raleigh,NC
+CO-D27,Stonebridge Home Care LLC,stonebridgehomecare.example.com,Home Healthcare,12,Columbus,OH

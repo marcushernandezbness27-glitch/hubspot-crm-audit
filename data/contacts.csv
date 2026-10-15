@@ -1,0 +1,319 @@
+contact_ref,firstname,lastname,email,phone,jobtitle,seniority_bucket,company_ref,company_domain,lifecyclestage,lead_source,createdate,trial_status,trial_start_date,product_activated,pricing_page_views,demo_requested,webinar_attended
+CT-0001,Skyler,Rossi,skyler.rossi14@keystonecleaningco.example.com,555-010-0001,CEO,Owner/Executive,CO-001,keystonecleaningco.example.com,marketingqualifiedlead,Direct Traffic,2026-08-01,Expired,2026-08-05,true,3,false,false
+CT-0002,Rowan,Abbott,rowan.abbott@keystonecleaningco.example.com,555-010-0002,Technician,Staff,CO-001,keystonecleaningco.example.com,marketingqualifiedlead,Organic Search,2026-04-10,Expired,2026-04-18,true,5,false,false
+CT-0003,Sam,Patel,sam.patel@keystonecleaningco.example.com,555-010-0003,Operations Manager,Manager,CO-001,keystonecleaningco.example.com,lead,Paid Social,2026-04-24,None,,,0,false,false
+CT-0004,Riley,Patel,riley.patel@keystonecleaningco.example.com,555-010-0004,CEO,Owner/Executive,CO-001,keystonecleaningco.example.com,lead,Organic Search,2026-09-24,None,,,1,false,false
+CT-0005,Casey,Torres,casey.torres@keystonecleaningco.example.com,555-010-0005,Operations Manager,Manager,CO-001,keystonecleaningco.example.com,subscriber,Email Marketing,2026-08-28,None,,,1,false,true
+CT-0006,Reese,Lund,reese.lund@keystonecleaningco.example.com,(555) 010-0006,Operations Manager,Manager,CO-001,keystonecleaningco.example.com,salesqualifiedlead,Direct Traffic,2026-09-24,Expired,2026-09-24,true,3,true,false
+CT-0007,Hayden,Fischer,hayden.fischer@keystonecleaningco.example.com,555-010-0007,Dispatcher,Staff,CO-001,keystonecleaningco.example.com,lead,Paid Search,2026-06-27,None,,,0,false,true
+CT-0008,Reese,Abbott,reese.abbott38@vantageroofing.example.com,555-010-0008,CEO,Owner/Executive,CO-002,vantageroofing.example.com,lead,Direct Traffic,2026-04-25,None,,,0,false,false
+CT-0009,Casey,Kowalski,casey.kowalski@vantageroofing.example.com,555-010-0009,President,Owner/Executive,CO-002,vantageroofing.example.com,subscriber,Email Marketing,2026-07-30,None,,,2,false,false
+CT-0010,Rowan,Walsh,rowan.walsh@vantageroofing.example.com,555-010-0010,Office Manager,Staff,CO-002,vantageroofing.example.com,lead,Referrals,2026-05-29,None,,,2,false,false
+CT-0011,Riley,Young,riley.young@vantageroofing.example.com,555-010-0011,President,Owner/Executive,CO-002,vantageroofing.example.com,marketingqualifiedlead,Direct Traffic,2026-04-08,Expired,2026-04-10,false,5,false,false
+CT-0012,Riley,Weber,riley.weber80@vantageroofing.example.com,(555) 010-0012,General Manager,Manager,CO-002,vantageroofing.example.com,lead,Referrals,2026-10-05,None,,,2,false,false
+CT-0013,Jordan,Johnson,jordan.johnson@vantageroofing.example.com,+15550100013,Bookkeeper,Staff,CO-002,vantageroofing.example.com,marketingqualifiedlead,Organic Search,2026-09-19,Expired,2026-09-28,true,2,false,false
+CT-0014,Peyton,Fischer,peyton.fischer@vantageroofing.example.com,555-010-0014,Dispatcher,Staff,CO-002,vantageroofing.example.com,salesqualifiedlead,Organic Search,2026-04-13,Expired,2026-04-21,false,5,true,false
+CT-0015,Avery,Garcia,avery.garcia@highlandroofing.example.com,555-010-0015,Owner,Owner/Executive,CO-003,highlandroofing.example.com,salesqualifiedlead,Email Marketing,2026-08-08,Expired,2026-08-13,false,0,true,false
+CT-0016,Kendall,Reyes,kendall.reyes@highlandroofing.example.com,555-010-0016,Operations Manager,Manager,CO-003,highlandroofing.example.com,lead,Paid Search,2026-10-01,None,,,2,false,false
+CT-0017,Morgan,Hale,morgan.hale@highlandroofing.example.com,555-010-0017,General Manager,Manager,CO-003,highlandroofing.example.com,marketingqualifiedlead,Referrals,2026-06-05,Expired,2026-06-12,true,4,false,false
+CT-0018,Jesse,Fischer,jesse.fischer@highlandroofing.example.com,5550100018,Owner,Owner/Executive,CO-003,highlandroofing.example.com,lead,Direct Traffic,2026-04-18,None,,,1,false,true
+CT-0019,Finley,Kowalski,finley.kowalski@highlandroofing.example.com,555-010-0019,President,Owner/Executive,CO-003,highlandroofing.example.com,marketingqualifiedlead,Paid Social,2026-04-17,Expired,2026-04-24,true,1,false,false
+CT-0020,Robin,Brooks,robin.brooks@coastalroofing.example.com,555-010-0020,Owner,Owner/Executive,CO-004,coastalroofing.example.com,opportunity,Email Marketing,2026-06-11,Expired,2026-06-18,false,3,true,false
+CT-0021,Peyton,Walsh,peyton.walsh@coastalroofing.example.com,555-010-0021,Bookkeeper,Staff,CO-004,coastalroofing.example.com,opportunity,Organic Search,2026-09-19,Expired,2026-09-23,true,2,false,false
+CT-0022,Taylor,Nguyen,taylor.nguyen@coastalroofing.example.com,(555) 010-0022,Technician,Staff,CO-004,coastalroofing.example.com,opportunity,Email Marketing,2026-05-20,None,,,0,false,false
+CT-0023,Rowan,Hale,rowan.hale@coastalroofing.example.com,555-010-0023,President,Owner/Executive,CO-004,coastalroofing.example.com,opportunity,Organic Search,2026-04-21,Expired,2026-05-01,false,5,true,false
+CT-0024,Jordan,Fischer,jordan.fischer@coastalroofing.example.com,555-010-0024,CEO,Owner/Executive,CO-004,coastalroofing.example.com,opportunity,Direct Traffic,2026-08-27,None,,,0,false,false
+CT-0025,Skyler,Reyes,skyler.reyes@coastalroofing.example.com,555-010-0025,Office Manager,Staff,CO-004,coastalroofing.example.com,opportunity,Direct Traffic,2026-10-10,Active,2026-10-15,false,6,true,false
+CT-0026,Sawyer,Brooks,sawyer.brooks64@coastalroofing.example.com,555-010-0026,President,Owner/Executive,CO-004,coastalroofing.example.com,opportunity,Referrals,2026-08-08,Expired,2026-08-08,true,6,false,false
+CT-0027,Reese,Diaz,reese.diaz@summitpestcontrol.example.com,555-010-0027,,,CO-005,summitpestcontrol.example.com,customer,Organic Search,2026-05-16,None,,,1,false,false
+CT-0028,Sawyer,Reyes,sawyer.reyes@summitpestcontrol.example.com,555-010-0028,Bookkeeper,Staff,CO-005,summitpestcontrol.example.com,customer,Referrals,2026-08-12,Expired,2026-08-21,false,5,false,false
+CT-0029,Casey,Torres,casey.torres@summitpestcontrol.example.com,555-010-0029,Bookkeeper,Staff,CO-005,summitpestcontrol.example.com,customer,Email Marketing,2026-07-20,None,,,1,false,true
+CT-0030,Kendall,Iverson,kendall.iverson@summitpestcontrol.example.com,555-010-0030,,,CO-005,summitpestcontrol.example.com,customer,Paid Social,2026-06-06,None,,,1,false,false
+CT-0031,Emerson,Sato,emerson.sato11@trailheadpestcontrol.example.com,+15550100031,CEO,Owner/Executive,CO-006,trailheadpestcontrol.example.com,opportunity,Paid Social,2026-09-27,None,,,0,false,false
+CT-0032,Sam,Hale,sam.hale@trailheadpestcontrol.example.com,555-010-0032,President,Owner/Executive,CO-006,trailheadpestcontrol.example.com,opportunity,Email Marketing,2026-05-12,Expired,2026-05-14,false,1,false,false
+CT-0033,Dana,Reyes,dana.reyes@trailheadpestcontrol.example.com,555-010-0033,President,Owner/Executive,CO-006,trailheadpestcontrol.example.com,opportunity,Referrals,2026-09-07,None,,,0,false,false
+CT-0034,Robin,Iverson,robin.iverson@trailheadpestcontrol.example.com,555-010-0034,Operations Manager,Manager,CO-006,trailheadpestcontrol.example.com,opportunity,Referrals,2026-06-03,Expired,2026-06-10,true,4,false,false
+CT-0035,Quinn,Novak,quinn.novak@keystonepestcontrol.example.com,555-010-0035,Owner,Owner/Executive,CO-007,keystonepestcontrol.example.com,lead,Paid Search,2026-05-16,None,,,2,false,false
+CT-0036,Avery,Johnson,avery.johnson79@keystonepestcontrol.example.com,555-010-0036,President,Owner/Executive,CO-007,keystonepestcontrol.example.com,lead,Direct Traffic,2026-08-28,None,,,1,false,false
+CT-0037,Rowan,Weber,rowan.weber@keystonepestcontrol.example.com,555-010-0037,Bookkeeper,Staff,CO-007,keystonepestcontrol.example.com,subscriber,Email Marketing,2026-05-23,None,,,2,false,false
+CT-0038,Emerson,Weber,emerson.weber@keystonepestcontrol.example.com,555-010-0038,CEO,Owner/Executive,CO-007,keystonepestcontrol.example.com,marketingqualifiedlead,Referrals,2026-05-04,Expired,2026-05-08,true,4,false,false
+CT-0039,Emerson,Walsh,emerson.walsh@keystonepestcontrol.example.com,+15550100039,Operations Manager,Manager,CO-007,keystonepestcontrol.example.com,marketingqualifiedlead,Paid Search,2026-04-26,Expired,2026-04-27,false,6,false,false
+CT-0040,Taylor,Sato,taylor.sato@keystonepestcontrol.example.com,555-010-0040,Service Manager,Manager,CO-007,keystonepestcontrol.example.com,lead,Paid Search,2026-05-18,None,,,2,false,false
+CT-0041,Parker,Novak,parker.novak@keystonepestcontrol.example.com,555-010-0041,Office Manager,Staff,CO-007,keystonepestcontrol.example.com,lead,Paid Social,2026-07-23,None,,,2,false,false
+CT-0042,Kendall,Okafor,kendall.okafor@metroheatingandair.example.com,555-010-0042,CEO,Owner/Executive,CO-008,metroheatingandair.example.com,subscriber,Referrals,2026-05-31,None,,,2,false,false
+CT-0043,Finley,Kim,finley.kim@metroheatingandair.example.com,555-010-0043,Service Manager,Manager,CO-008,metroheatingandair.example.com,marketingqualifiedlead,Email Marketing,2026-07-16,Expired,2026-07-26,false,5,false,false
+CT-0044,Cameron,Rossi,cameron.rossi5@metroheatingandair.example.com,555-010-0044,Owner,Owner/Executive,CO-008,metroheatingandair.example.com,marketingqualifiedlead,Organic Search,2026-06-20,Expired,2026-06-28,true,0,false,false
+CT-0045,Skyler,Walsh,skyler.walsh@metroheatingandair.example.com,5550100045,Owner,Owner/Executive,CO-008,metroheatingandair.example.com,lead,Paid Social,2026-07-06,None,,,2,false,false
+CT-0046,Jesse,Novak,jesse.novak@metroheatingandair.example.com,555-010-0046,Bookkeeper,Staff,CO-008,metroheatingandair.example.com,lead,Referrals,2026-09-06,None,,,0,false,false
+CT-0047,Morgan,Kim,morgan.kim@gmail.com,555-010-0047,Owner,Owner/Executive,,,subscriber,Paid Social,2026-06-07,None,,,2,false,false
+CT-0048,Skyler,Lund,skyler.lund@cedarlinelandscaping.example.com,+15550100048,Dispatcher,Staff,CO-009,cedarlinelandscaping.example.com,salesqualifiedlead,Email Marketing,2026-10-04,Active,2026-10-13,true,5,true,false
+CT-0049,Alex,Kim,alex.kim@cedarlinelandscaping.example.com,555-010-0049,Operations Manager,Manager,CO-009,cedarlinelandscaping.example.com,lead,Paid Search,2026-04-30,None,,,1,false,false
+CT-0050,Peyton,Lund,peyton.lund@cedarlinelandscaping.example.com,555-010-0050,Dispatcher,Staff,CO-009,cedarlinelandscaping.example.com,subscriber,Paid Social,2026-07-15,None,,,0,false,false
+CT-0051,Avery,Okafor,avery.okafor@cedarlinelandscaping.example.com,(555) 010-0051,Operations Manager,Manager,CO-009,cedarlinelandscaping.example.com,customer,Paid Search,2026-09-29,Active,2026-10-04,true,6,false,false
+CT-0052,Riley,Weber,riley.weber@cedarlinelandscaping.example.com,555-010-0052,General Manager,Manager,CO-009,cedarlinelandscaping.example.com,customer,Paid Social,2026-07-15,None,,,2,false,false
+CT-0053,Dana,Jansen,dana.jansen@metroelectric.example.com,555-010-0053,CEO,Owner/Executive,CO-010,metroelectric.example.com,salesqualifiedlead,Direct Traffic,2026-06-12,None,,,2,true,false
+CT-0054,Dana,Novak,,555-010-0054,General Manager,Manager,CO-010,metroelectric.example.com,lead,Referrals,2026-07-31,None,,,1,false,false
+CT-0055,Alex,Kim,alex.kim@metroelectric.example.com,555-010-0055,Dispatcher,Staff,CO-010,metroelectric.example.com,lead,Organic Search,2026-09-15,None,,,0,false,false
+CT-0056,Alex,Sato,alex.sato@metroelectric.example.com,555-010-0056,President,Owner/Executive,CO-010,metroelectric.example.com,subscriber,Referrals,2026-04-21,None,,,2,false,false
+CT-0057,Alex,Walsh,alex.walsh@metroelectric.example.com,555-010-0057,Bookkeeper,Staff,CO-010,metroelectric.example.com,salesqualifiedlead,Paid Search,2026-09-05,Expired,2026-09-12,false,0,true,false
+CT-0058,Finley,Muller,finley.muller@metroelectric.example.com,555-010-0058,Service Manager,Manager,CO-010,metroelectric.example.com,salesqualifiedlead,Organic Search,2026-06-15,Expired,2026-06-15,false,6,true,true
+CT-0059,Parker,Diaz,parker.diaz@metroelectric.example.com,555-010-0059,Technician,Staff,CO-010,metroelectric.example.com,lead,Paid Search,2026-05-27,None,,,1,false,false
+CT-0060,Drew,Weber,drew.weber@cedarlineroofing.example.com,555-010-0060,President,Owner/Executive,CO-011,cedarlineroofing.example.com,marketingqualifiedlead,Paid Social,2026-06-02,Expired,2026-06-02,true,1,false,false
+CT-0061,Peyton,Kim,peyton.kim@cedarlineroofing.example.com,555-010-0061,Dispatcher,Staff,CO-011,cedarlineroofing.example.com,marketingqualifiedlead,Direct Traffic,2026-07-02,Expired,2026-07-05,true,6,false,false
+CT-0062,Riley,Torres,riley.torres@cedarlineroofing.example.com,555-010-0062,Bookkeeper,Staff,CO-011,cedarlineroofing.example.com,lead,Direct Traffic,2026-06-16,None,,,2,false,false
+CT-0063,Riley,Shah,riley.shah1@cedarlineroofing.example.com,555-010-0063,Owner,Owner/Executive,CO-011,cedarlineroofing.example.com,subscriber,Referrals,2026-09-01,None,,,1,false,true
+CT-0064,Casey,Fischer,casey.fischer@cedarlineroofing.example.com,555-010-0064,President,Owner/Executive,CO-011,cedarlineroofing.example.com,marketingqualifiedlead,Paid Search,2026-04-10,Expired,2026-04-15,true,6,false,false
+CT-0065,Taylor,Patel,taylor.patel85@cedarlineroofing.example.com,555-010-0065,Service Manager,Manager,CO-011,cedarlineroofing.example.com,marketingqualifiedlead,Referrals,2026-04-24,Expired,2026-05-01,false,1,false,false
+CT-0066,Logan,Abbott,logan.abbott@cedarlineroofing.example.com,555-010-0066,CEO,Owner/Executive,CO-011,cedarlineroofing.example.com,marketingqualifiedlead,Paid Social,2026-08-02,Expired,2026-08-09,true,1,false,false
+CT-0067,Drew,Young,drew.young@pinecrestpestcontrol.example.com,555-010-0067,President,Owner/Executive,CO-012,pinecrestpestcontrol.example.com,lead,Paid Social,2026-10-07,None,,,0,false,false
+CT-0068,Parker,Abbott,parker.abbott@pinecrestpestcontrol.example.com,555-010-0068,CEO,Owner/Executive,CO-012,pinecrestpestcontrol.example.com,marketingqualifiedlead,Email Marketing,2026-05-08,Expired,2026-05-10,true,2,false,false
+CT-0069,Skyler,Mora,skyler.mora@pinecrestpestcontrol.example.com,+15550100069,CEO,Owner/Executive,CO-012,pinecrestpestcontrol.example.com,lead,Paid Search,2026-05-05,None,,,1,false,false
+CT-0070,Sam,Abbott,sam.abbott@pinecrestpestcontrol.example.com,555-010-0070,Operations Manager,Manager,CO-012,pinecrestpestcontrol.example.com,salesqualifiedlead,Referrals,2026-08-05,None,,,0,true,false
+CT-0071,Logan,Iverson,logan.iverson@pinecrestpestcontrol.example.com,555-010-0071,Operations Manager,Manager,CO-012,pinecrestpestcontrol.example.com,subscriber,Direct Traffic,2026-05-11,None,,,2,false,false
+CT-0072,Sam,Shah,,5550100072,President,Owner/Executive,CO-013,pinecrestplumbing.example.com,opportunity,Email Marketing,2026-10-10,Active,2026-10-15,true,3,false,false
+CT-0073,Sawyer,Shah,sawyer.shah48@pinecrestplumbing.example.com,(555) 010-0073,Technician,Staff,CO-013,pinecrestplumbing.example.com,opportunity,Direct Traffic,2026-07-28,None,,,0,true,false
+CT-0074,Sawyer,Reyes,sawyer.reyes@pinecrestplumbing.example.com,555-010-0074,Service Manager,Manager,CO-013,pinecrestplumbing.example.com,opportunity,Email Marketing,2026-04-23,None,,,0,false,true
+CT-0075,Morgan,Novak,morgan.novak@oakridgeheatingandair.example.com,555-010-0075,Owner,Owner/Executive,CO-014,oakridgeheatingandair.example.com,opportunity,Paid Social,2026-09-01,None,,,1,false,false
+CT-0076,Hayden,Johnson,,555-010-0076,President,Owner/Executive,CO-014,oakridgeheatingandair.example.com,opportunity,Organic Search,2026-07-29,Expired,2026-08-05,true,4,true,false
+CT-0077,Jesse,Reyes,jesse.reyes99@oakridgeheatingandair.example.com,555-010-0077,General Manager,Manager,CO-014,oakridgeheatingandair.example.com,opportunity,Referrals,2026-10-08,Active,2026-10-09,false,6,false,false
+CT-0078,Quinn,Muller,quinn.muller95@oakridgeheatingandair.example.com,555-010-0078,Operations Manager,Manager,CO-014,oakridgeheatingandair.example.com,opportunity,Direct Traffic,2026-10-10,None,,,1,false,true
+CT-0079,Taylor,Young,taylor.young@oakridgeheatingandair.example.com,555-010-0079,,,CO-014,oakridgeheatingandair.example.com,opportunity,Paid Social,2026-08-13,Expired,2026-08-15,false,0,false,true
+CT-0080,Casey,Rossi,casey.rossi@oakridgeheatingandair.example.com,555-010-0080,Operations Manager,Manager,CO-014,oakridgeheatingandair.example.com,opportunity,Email Marketing,2026-09-22,None,,,0,false,false
+CT-0081,Jesse,Reyes,jesse.reyes@oakridgeheatingandair.example.com,555-010-0081,Bookkeeper,Staff,CO-014,oakridgeheatingandair.example.com,opportunity,Organic Search,2026-09-17,Expired,2026-09-23,true,5,true,false
+CT-0082,Skyler,Okafor,skyler.okafor@riverbendheatingandair.example.com,555-010-0082,President,Owner/Executive,CO-015,riverbendheatingandair.example.com,customer,Paid Social,2026-09-30,None,,,2,false,true
+CT-0083,Dana,Abbott,dana.abbott81@riverbendheatingandair.example.com,555-010-0083,Service Manager,Manager,CO-015,riverbendheatingandair.example.com,customer,Paid Social,2026-09-05,None,,,0,false,false
+CT-0084,Sawyer,Torres,sawyer.torres@riverbendheatingandair.example.com,555-010-0084,Dispatcher,Staff,CO-015,riverbendheatingandair.example.com,customer,Paid Social,2026-06-04,Expired,2026-06-08,true,6,false,false
+CT-0085,Skyler,Johnson,skyler.johnson49@riverbendheatingandair.example.com,555-010-0085,Dispatcher,Staff,CO-015,riverbendheatingandair.example.com,customer,Referrals,2026-07-03,None,,,0,false,false
+CT-0086,Sawyer,Reyes,sawyer.reyes@riverbendheatingandair.example.com,555-010-0086,Operations Manager,Manager,CO-015,riverbendheatingandair.example.com,customer,Direct Traffic,2026-07-13,None,,,1,true,false
+CT-0087,Hayden,Hale,hayden.hale@riverbendheatingandair.example.com,(555) 010-0087,CEO,Owner/Executive,CO-015,riverbendheatingandair.example.com,customer,Direct Traffic,2026-10-08,None,,,0,false,false
+CT-0088,Morgan,Torres,morgan.torres@riverbendheatingandair.example.com,555-010-0088,Bookkeeper,Staff,CO-015,riverbendheatingandair.example.com,customer,Email Marketing,2026-07-16,None,,,0,false,false
+CT-0089,Jesse,Patel,jesse.patel@silverlineheatingandair.example.com,555-010-0089,Owner,Owner/Executive,CO-016,silverlineheatingandair.example.com,opportunity,Paid Social,2026-09-23,None,,,1,false,false
+CT-0090,Rowan,Weber,rowan.weber@silverlineheatingandair.example.com,555-010-0090,Office Manager,Staff,CO-016,silverlineheatingandair.example.com,opportunity,Email Marketing,2026-08-10,Expired,2026-08-15,false,4,false,false
+CT-0091,Finley,Walsh,finley.walsh@silverlineheatingandair.example.com,555-010-0091,Dispatcher,Staff,CO-016,silverlineheatingandair.example.com,opportunity,Paid Search,2026-08-16,Expired,2026-08-25,true,2,false,false
+CT-0092,Peyton,Fischer,peyton.fischer98@harborviewhomecare.example.com,555-010-0092,CEO,Owner/Executive,CO-017,harborviewhomecare.example.com,customer,Paid Social,2026-04-08,Expired,2026-04-15,false,0,false,false
+CT-0093,Taylor,Young,taylor.young@harborviewhomecare.example.com,555-010-0093,Technician,Staff,CO-017,harborviewhomecare.example.com,customer,Email Marketing,2026-08-25,Expired,2026-08-25,false,2,false,false
+CT-0094,Jesse,Jansen,jesse.jansen@harborviewhomecare.example.com,555-010-0094,General Manager,Manager,CO-017,harborviewhomecare.example.com,customer,Email Marketing,2026-08-28,None,,,1,false,false
+CT-0095,Parker,Okafor,parker.okafor@harborviewhomecare.example.com,555-010-0095,Dispatcher,Staff,CO-017,harborviewhomecare.example.com,customer,Referrals,2026-09-01,Expired,2026-09-09,true,1,true,false
+CT-0096,Emerson,Diaz,emerson.diaz@harborviewhomecare.example.com,+15550100096,Service Manager,Manager,CO-017,harborviewhomecare.example.com,customer,Email Marketing,2026-04-27,Expired,2026-05-02,false,2,false,false
+CT-0097,Morgan,Brooks,morgan.brooks10@harborviewhomecare.example.com,555-010-0097,Dispatcher,Staff,CO-017,harborviewhomecare.example.com,customer,Paid Search,2026-08-05,Expired,2026-08-09,false,1,false,false
+CT-0098,Riley,Kim,riley.kim@harborviewhomecare.example.com,(555) 010-0098,Operations Manager,Manager,CO-017,harborviewhomecare.example.com,customer,Referrals,2026-07-01,Expired,2026-07-07,true,2,false,false
+CT-0099,Skyler,Johnson,skyler.johnson@metrolandscaping.example.com,555-010-0099,President,Owner/Executive,CO-018,metrolandscaping.example.com,customer,Email Marketing,2026-07-10,None,,,0,false,false
+CT-0100,Avery,Garcia,avery.garcia@metrolandscaping.example.com,555-010-0100,CEO,Owner/Executive,CO-018,metrolandscaping.example.com,customer,Organic Search,2026-09-26,Expired,2026-09-29,false,0,false,false
+CT-0101,Reese,Patel,reese.patel@metrolandscaping.example.com,555-010-0101,Technician,Staff,CO-018,metrolandscaping.example.com,customer,Organic Search,2026-06-05,Expired,2026-06-14,true,3,true,false
+CT-0102,Jordan,Muller,jordan.muller@highlandpestcontrol.example.com,555-010-0102,CEO,Owner/Executive,CO-019,highlandpestcontrol.example.com,customer,Organic Search,2026-09-16,None,,,1,false,false
+CT-0103,Avery,Walsh,avery.walsh@highlandpestcontrol.example.com,555-010-0103,Operations Manager,Manager,CO-019,highlandpestcontrol.example.com,customer,Referrals,2026-08-12,Expired,2026-08-21,false,1,true,false
+CT-0104,Morgan,Novak,morgan.novak@highlandpestcontrol.example.com,555-010-0104,Operations Manager,Manager,CO-019,highlandpestcontrol.example.com,customer,Referrals,2026-05-02,Expired,2026-05-09,true,4,true,false
+CT-0105,Jesse,Garcia,jesse.garcia60@highlandpestcontrol.example.com,555-010-0105,Office Manager,Staff,CO-019,highlandpestcontrol.example.com,customer,Email Marketing,2026-06-03,None,,,2,false,true
+CT-0106,Riley,Fischer,riley.fischer@highlandpestcontrol.example.com,555-010-0106,Technician,Staff,CO-019,highlandpestcontrol.example.com,customer,Direct Traffic,2026-04-09,None,,,2,false,false
+CT-0107,Peyton,Reyes,peyton.reyes2@highlandpestcontrol.example.com,555-010-0107,Owner,Owner/Executive,CO-019,highlandpestcontrol.example.com,customer,Email Marketing,2026-04-24,None,,,0,false,false
+CT-0108,Taylor,Weber,taylor.weber@prairielandscaping.example.com,555-010-0108,President,Owner/Executive,CO-020,prairielandscaping.example.com,opportunity,Paid Search,2026-08-29,Expired,2026-09-02,true,5,false,false
+CT-0109,Parker,Rossi,parker.rossi@prairielandscaping.example.com,555-010-0109,Bookkeeper,Staff,CO-020,prairielandscaping.example.com,opportunity,Paid Search,2026-08-29,None,,,2,false,false
+CT-0110,Morgan,Novak,morgan.novak@prairielandscaping.example.com,5550100110,Bookkeeper,Staff,CO-020,prairielandscaping.example.com,opportunity,Paid Search,2026-05-02,Expired,2026-05-02,false,4,false,false
+CT-0111,Cameron,Fischer,cameron.fischer@prairielandscaping.example.com,(555) 010-0111,Operations Manager,Manager,CO-020,prairielandscaping.example.com,opportunity,Referrals,2026-09-05,None,,,2,false,false
+CT-0112,Kendall,Muller,kendall.muller@prairielandscaping.example.com,555-010-0112,President,Owner/Executive,CO-020,prairielandscaping.example.com,opportunity,Direct Traffic,2026-05-25,Expired,2026-05-25,true,1,false,false
+CT-0113,Avery,Brooks,avery.brooks@prairielandscaping.example.com,555-010-0113,General Manager,Manager,CO-020,prairielandscaping.example.com,opportunity,Direct Traffic,2026-08-12,None,,,0,false,false
+CT-0114,Peyton,Shah,peyton.shah99@prairielandscaping.example.com,555-010-0114,Technician,Staff,CO-020,prairielandscaping.example.com,opportunity,Direct Traffic,2026-06-11,None,,,1,false,false
+CT-0115,Rowan,Patel,rowan.patel76@bluewavepestcontrol.example.com,(555) 010-0115,CEO,Owner/Executive,CO-021,bluewavepestcontrol.example.com,opportunity,Paid Social,2026-08-29,None,,,0,false,false
+CT-0116,Parker,Weber,parker.weber@bluewavepestcontrol.example.com,555-010-0116,Dispatcher,Staff,CO-021,bluewavepestcontrol.example.com,opportunity,Direct Traffic,2026-07-27,Expired,2026-08-06,true,4,false,false
+CT-0117,Alex,Nguyen,alex.nguyen@bluewavepestcontrol.example.com,555-010-0117,President,Owner/Executive,CO-021,bluewavepestcontrol.example.com,opportunity,Direct Traffic,2026-09-23,Active,2026-10-01,false,4,false,false
+CT-0118,Jordan,Iverson,jordan.iverson@bluewavepestcontrol.example.com,555-010-0118,,,CO-021,bluewavepestcontrol.example.com,opportunity,Organic Search,2026-06-01,Expired,2026-06-03,true,3,false,false
+CT-0119,Reese,Muller,reese.muller21@riverbendlandscaping.example.com,555-010-0119,President,Owner/Executive,CO-022,riverbendlandscaping.example.com,opportunity,Direct Traffic,2026-09-15,None,,,2,false,true
+CT-0120,Casey,Mora,casey.mora@riverbendlandscaping.example.com,555-010-0120,Owner,Owner/Executive,CO-022,riverbendlandscaping.example.com,opportunity,Email Marketing,2026-07-27,None,,,2,false,false
+CT-0121,Jamie,Shah,jamie.shah@riverbendlandscaping.example.com,+15550100121,Dispatcher,Staff,CO-022,riverbendlandscaping.example.com,opportunity,Paid Search,2026-06-29,None,,,1,false,false
+CT-0122,Hayden,Shah,hayden.shah@riverbendlandscaping.example.com,555-010-0122,Technician,Staff,CO-022,riverbendlandscaping.example.com,opportunity,Email Marketing,2026-04-27,Expired,2026-04-29,true,5,false,false
+CT-0123,Emerson,Diaz,emerson.diaz@riverbendlandscaping.example.com,555-010-0123,,,CO-022,riverbendlandscaping.example.com,opportunity,Referrals,2026-05-17,Expired,2026-05-25,false,0,false,false
+CT-0124,Peyton,Patel,peyton.patel@riverbendlandscaping.example.com,+15550100124,Bookkeeper,Staff,CO-022,riverbendlandscaping.example.com,opportunity,Direct Traffic,2026-09-12,None,,,1,false,false
+CT-0125,Jesse,Lund,jesse.lund@willowcreekroofing.example.com,(555) 010-0125,CEO,Owner/Executive,CO-023,willowcreekroofing.example.com,opportunity,Referrals,2026-09-16,Expired,2026-09-22,true,3,true,false
+CT-0126,Robin,Rossi,robin.rossi@willowcreekroofing.example.com,555-010-0126,Office Manager,Staff,CO-023,willowcreekroofing.example.com,opportunity,Paid Social,2026-09-05,None,,,2,false,false
+CT-0127,Emerson,Fischer,emerson.fischer@willowcreekroofing.example.com,+15550100127,Dispatcher,Staff,CO-023,willowcreekroofing.example.com,opportunity,Referrals,2026-08-23,None,,,2,false,false
+CT-0128,Kendall,Kowalski,kendall.kowalski@willowcreekroofing.example.com,555-010-0128,Owner,Owner/Executive,CO-023,willowcreekroofing.example.com,opportunity,Paid Social,2026-06-07,Expired,2026-06-16,true,6,false,false
+CT-0129,Kendall,Nguyen,kendall.nguyen@willowcreekroofing.example.com,555-010-0129,Technician,Staff,CO-023,willowcreekroofing.example.com,opportunity,Referrals,2026-04-19,Expired,2026-04-23,true,5,false,false
+CT-0130,Emerson,Diaz,emerson.diaz@willowcreekroofing.example.com,555-010-0130,Office Manager,Staff,CO-023,willowcreekroofing.example.com,opportunity,Organic Search,2026-07-28,Expired,2026-07-28,false,4,false,false
+CT-0131,Casey,Novak,casey.novak@willowcreekroofing.example.com,+15550100131,General Manager,Manager,CO-023,willowcreekroofing.example.com,opportunity,Direct Traffic,2026-06-02,None,,,2,false,false
+CT-0132,Skyler,Young,skyler.young@anchorelectric.example.com,555-010-0132,CEO,Owner/Executive,CO-024,anchorelectric.example.com,opportunity,Paid Social,2026-09-23,None,,,1,false,false
+CT-0133,Riley,Kim,riley.kim@anchorelectric.example.com,5550100133,CEO,Owner/Executive,CO-024,anchorelectric.example.com,opportunity,Paid Social,2026-04-13,None,,,2,false,false
+CT-0134,Riley,Iverson,riley.iverson@anchorelectric.example.com,555-010-0134,,,CO-024,anchorelectric.example.com,opportunity,Email Marketing,2026-08-16,Expired,2026-08-22,true,1,true,false
+CT-0135,Finley,Kowalski,finley.kowalski@clearwaterroofing.example.con,555-010-0135,Owner,Owner/Executive,CO-025,clearwaterroofing.example.com,opportunity,Paid Search,2026-08-20,None,,,1,false,false
+CT-0136,Finley,Weber,finley.weber@clearwaterroofing.example.com,555-010-0136,,,CO-025,clearwaterroofing.example.com,opportunity,Email Marketing,2026-08-20,None,,,0,false,false
+CT-0137,Sawyer,Okafor,sawyer.okafor68@clearwaterroofing.example.com,555-010-0137,Operations Manager,Manager,CO-025,clearwaterroofing.example.com,opportunity,Paid Social,2026-08-08,Expired,2026-08-18,true,0,false,false
+CT-0138,Drew,Torres,drew.torres@clearwaterroofing.example.com,555-010-0138,CEO,Owner/Executive,CO-025,clearwaterroofing.example.com,opportunity,Organic Search,2026-06-11,Expired,2026-06-11,false,0,true,false
+CT-0139,Emerson,Diaz,emerson.diaz@clearwaterroofing.example.com,555-010-0139,CEO,Owner/Executive,CO-025,clearwaterroofing.example.com,opportunity,Paid Search,2026-07-04,Expired,2026-07-14,false,3,false,false
+CT-0140,Cameron,Weber,cameron.weber@clearwaterroofing.example.com,555-010-0140,,,CO-025,clearwaterroofing.example.com,opportunity,Referrals,2026-06-08,None,,,1,false,false
+CT-0141,Sawyer,Nguyen,sawyer.nguyen@clearwaterroofing.example.com,555-010-0141,General Manager,Manager,CO-025,clearwaterroofing.example.com,opportunity,Organic Search,2026-05-14,None,,,1,false,false
+CT-0142,Jesse,Fischer,jesse.fischer@riverbendpestcontrol.example.com,5550100142,CEO,Owner/Executive,CO-026,riverbendpestcontrol.example.com,lead,Paid Social,2026-05-17,None,,,0,false,false
+CT-0143,Reese,Johnson,reese.johnson@riverbendpestcontrol.example.com,(555) 010-0143,Operations Manager,Manager,CO-026,riverbendpestcontrol.example.com,lead,Paid Social,2026-07-17,None,,,0,false,false
+CT-0144,Taylor,Nguyen,taylor.nguyen@riverbendpestcontrol.example.com,555-010-0144,Owner,Owner/Executive,CO-026,riverbendpestcontrol.example.com,marketingqualifiedlead,Email Marketing,2026-09-15,Expired,2026-09-25,false,5,false,false
+CT-0145,Quinn,Walsh,quinn.walsh@riverbendpestcontrol.example.com,555-010-0145,,,CO-026,riverbendpestcontrol.example.com,salesqualifiedlead,Referrals,2026-09-20,None,,,0,true,false
+CT-0146,Sawyer,Reyes,sawyer.reyes@riverbendpestcontrol.example.com,555-010-0146,,,CO-026,riverbendpestcontrol.example.com,customer,Paid Search,2026-09-13,None,,,2,false,false
+CT-0147,Parker,Young,parker.young74@riverbendpestcontrol.example.com,555-010-0147,Owner,Owner/Executive,CO-026,riverbendpestcontrol.example.com,subscriber,Organic Search,2026-08-10,None,,,0,false,false
+CT-0148,Hayden,Hale,hayden.hale@northgateplumbing.example.com,555-010-0148,CEO,Owner/Executive,CO-027,northgateplumbing.example.com,customer,Paid Social,2026-04-17,Expired,2026-04-23,false,1,false,true
+CT-0149,Sawyer,Torres,sawyer.torres@northgateplumbing.example.com,555-010-0149,General Manager,Manager,CO-027,northgateplumbing.example.com,customer,Referrals,2026-04-22,Expired,2026-05-01,true,5,true,false
+CT-0150,Rowan,Jansen,rowan.jansen@northgateplumbing.example.com,555-010-0150,Owner,Owner/Executive,CO-027,northgateplumbing.example.com,customer,Paid Social,2026-09-02,Expired,2026-09-03,true,4,true,false
+CT-0151,Hayden,Young,hayden.young@stonebridgehomecare.example.com,555-010-0151,,,CO-028,stonebridgehomecare.example.com,customer,Organic Search,2026-05-06,Expired,2026-05-06,true,4,false,false
+CT-0152,Hayden,Johnson,hayden.johnson@stonebridgehomecare.example.com,+15550100152,Service Manager,Manager,CO-028,stonebridgehomecare.example.com,customer,Paid Social,2026-06-01,Expired,2026-06-01,true,2,false,false
+CT-0153,Finley,Hale,finley.hale83@stonebridgehomecare.example.com,555-010-0153,Service Manager,Manager,CO-028,stonebridgehomecare.example.com,customer,Referrals,2026-09-24,Expired,2026-09-25,true,6,false,false
+CT-0154,Emerson,Muller,emerson.muller@stonebridgehomecare.example.com,5550100154,Owner,Owner/Executive,CO-028,stonebridgehomecare.example.com,customer,Referrals,2026-09-21,None,,,2,false,false
+CT-0155,Jordan,Patel,jordan.patel@stonebridgehomecare.example.com,555-010-0155,Dispatcher,Staff,CO-028,stonebridgehomecare.example.com,customer,Email Marketing,2026-05-14,Expired,2026-05-24,false,2,true,true
+CT-0156,Rowan,Sato,rowan.sato@vantageelectric.example.com,555-010-0156,Owner,Owner/Executive,CO-029,vantageelectric.example.com,customer,Paid Social,2026-05-02,None,,,0,true,false
+CT-0157,Taylor,Okafor,taylor.okafor@vantageelectric.example.com,555-010-0157,Operations Manager,Manager,CO-029,vantageelectric.example.com,customer,Paid Search,2026-05-18,None,,,2,false,false
+CT-0158,Avery,Muller,avery.muller@vantageelectric.example.com,555-010-0158,Bookkeeper,Staff,CO-029,vantageelectric.example.com,customer,Organic Search,2026-06-29,None,,,1,false,false
+CT-0159,Hayden,Shah,hayden.shah@vantageelectric.example.com,555-010-0159,President,Owner/Executive,CO-029,vantageelectric.example.com,customer,Direct Traffic,2026-08-16,Expired,2026-08-23,true,5,false,false
+CT-0160,Parker,Rossi,parker.rossi@outlook.com,555-010-0160,President,Owner/Executive,,,marketingqualifiedlead,Referrals,2026-06-03,Expired,2026-06-07,false,5,false,false
+CT-0161,Morgan,Novak,morgan.novak@pinecrestlandscaping.example.com,555-010-0161,Operations Manager,Manager,CO-030,pinecrestlandscaping.example.com,customer,Email Marketing,2026-04-08,Expired,2026-04-18,true,6,false,false
+CT-0162,Emerson,Kowalski,emerson.kowalski@pinecrestlandscaping.example.com,555-010-0162,Office Manager,Staff,CO-030,pinecrestlandscaping.example.com,marketingqualifiedlead,Email Marketing,2026-08-21,Expired,2026-08-25,true,4,false,false
+CT-0163,Logan,Patel,logan.patel@redstonecleaningco.example.com,555-010-0163,CEO,Owner/Executive,CO-031,redstonecleaningco.example.com,customer,Email Marketing,2026-04-18,None,,,0,false,false
+CT-0164,Jesse,Sato,jesse.sato@redstonecleaningco.example.com,555-010-0164,Owner,Owner/Executive,CO-031,redstonecleaningco.example.com,customer,Referrals,2026-05-21,None,,,0,false,false
+CT-0165,Sam,Johnson,sam.johnson@redstonecleaningco.example.com,555-010-0165,General Manager,Manager,CO-031,redstonecleaningco.example.com,customer,Referrals,2026-09-03,None,,,0,false,false
+CT-0166,Morgan,Young,morgan.young@redstonecleaningco.example.com,555-010-0166,General Manager,Manager,CO-031,redstonecleaningco.example.com,customer,Direct Traffic,2026-06-16,Expired,2026-06-26,false,3,false,false
+CT-0167,Robin,Reyes,robin.reyes@redstonecleaningco.example.com,555-010-0167,Service Manager,Manager,CO-031,redstonecleaningco.example.com,customer,Organic Search,2026-09-24,Expired,2026-09-26,false,3,false,false
+CT-0168,Jesse,Torres,jesse.torres@redstonecleaningco.example.com,555-010-0168,Technician,Staff,CO-031,redstonecleaningco.example.com,customer,Direct Traffic,2026-06-24,None,,,0,false,true
+CT-0169,Hayden,Walsh,hayden.walsh@redstonecleaningco.example.com,555-010-0169,Bookkeeper,Staff,CO-031,redstonecleaningco.example.com,customer,Organic Search,2026-05-25,Expired,2026-06-03,false,2,false,false
+CT-0170,Logan,Patel,logan.patel@northgatelandscaping.example.com,555-010-0170,Owner,Owner/Executive,CO-032,northgatelandscaping.example.com,customer,Email Marketing,2026-04-15,None,,,2,false,false
+CT-0171,Sawyer,Rossi,sawyer.rossi@northgatelandscaping.example.com,555-010-0171,General Manager,Manager,CO-032,northgatelandscaping.example.com,lead,Referrals,2026-05-24,Expired,2026-05-25,true,4,false,false
+CT-0172,Peyton,Diaz,peyton.diaz@northgatelandscaping.example.com,555-010-0172,Owner,Owner/Executive,CO-032,northgatelandscaping.example.com,lead,Email Marketing,2026-07-28,None,,,1,false,false
+CT-0173,Logan,Mora,logan.mora@sunrisecleaningco.example.com,555-010-0173,Owner,Owner/Executive,CO-033,sunrisecleaningco.example.com,opportunity,Paid Social,2026-07-04,None,,,1,false,false
+CT-0174,Cameron,Reyes,cameron.reyes@sunrisecleaningco.example.com,555-010-0174,General Manager,Manager,CO-033,sunrisecleaningco.example.com,opportunity,Organic Search,2026-05-18,Expired,2026-05-28,false,6,false,false
+CT-0175,Drew,Patel,drew.patel@sunrisecleaningco.example.com,555-010-0175,Technician,Staff,CO-033,sunrisecleaningco.example.com,opportunity,Referrals,2026-07-12,None,,,1,false,false
+CT-0176,Drew,Hale,drew.hale@sunrisecleaningco.example.com,555-010-0176,Dispatcher,Staff,CO-033,sunrisecleaningco.example.com,opportunity,Organic Search,2026-04-22,None,,,1,false,false
+CT-0177,Alex,Fischer,alex.fischer@sunrisecleaningco.example.com,555-010-0177,Technician,Staff,CO-033,sunrisecleaningco.example.com,opportunity,Paid Search,2026-08-02,None,,,1,false,false
+CT-0178,Morgan,Torres,morgan.torres@sunrisecleaningco.example.com,555-010-0178,Dispatcher,Staff,CO-033,sunrisecleaningco.example.com,opportunity,Paid Search,2026-09-01,None,,,2,false,false
+CT-0179,Parker,Jansen,parker.jansen@northgateroofing.example.com,555-010-0179,Owner,Owner/Executive,CO-034,northgateroofing.example.com,salesqualifiedlead,Direct Traffic,2026-04-11,None,,,2,true,false
+CT-0180,Drew,Muller,drew.muller@northgateroofing.example.com,555-010-0180,Bookkeeper,Staff,CO-034,northgateroofing.example.com,marketingqualifiedlead,Paid Search,2026-09-26,Active,2026-10-01,true,6,false,false
+CT-0181,Emerson,Diaz,emerson.diaz@northgateroofing.example.com,555-010-0181,CEO,Owner/Executive,CO-034,northgateroofing.example.com,salesqualifiedlead,Paid Search,2026-08-04,Expired,2026-08-13,false,5,true,false
+CT-0182,Emerson,Jansen,emerson.jansen@northgateroofing.example.com,555-010-0182,Operations Manager,Manager,CO-034,northgateroofing.example.com,lead,Paid Social,2026-08-01,None,,,2,false,false
+CT-0183,Peyton,Mora,peyton.mora@northgateroofing.example.com,555-010-0183,President,Owner/Executive,CO-034,northgateroofing.example.com,lead,Organic Search,2026-04-15,None,,,1,false,false
+CT-0184,Casey,Abbott,casey.abbott@northgateroofing.example.com,555-010-0184,Dispatcher,Staff,CO-034,northgateroofing.example.com,subscriber,Referrals,2026-10-09,None,,,2,false,false
+CT-0185,Jordan,Diaz,jordan.diaz@northgateroofing.example.com,555-010-0185,Office Manager,Staff,CO-034,northgateroofing.example.com,lead,Direct Traffic,2026-08-05,None,,,1,false,false
+CT-0186,Sawyer,Johnson,sawyer.johnson@lakewoodhomecare.example.com,555-010-0186,Owner,Owner/Executive,CO-035,lakewoodhomecare.example.com,opportunity,Direct Traffic,2026-06-28,Expired,2026-07-07,false,1,false,false
+CT-0187,Drew,Kim,drew.kim89@lakewoodhomecare.example.com,555-010-0187,Owner,Owner/Executive,CO-035,lakewoodhomecare.example.com,opportunity,Organic Search,2026-06-20,None,,,1,false,false
+CT-0188,Morgan,Kowalski,morgan.kowalski@lakewoodhomecare.example.com,555-010-0188,Dispatcher,Staff,CO-035,lakewoodhomecare.example.com,opportunity,Paid Social,2026-09-28,None,,,2,false,false
+CT-0189,Riley,Rossi,riley.rossi27@trailheadhomecare.example.com,555-010-0189,Owner,Owner/Executive,CO-036,trailheadhomecare.example.com,opportunity,Paid Search,2026-04-18,Expired,2026-04-26,true,3,false,false
+CT-0190,Quinn,Torres,quinn.torres73@trailheadhomecare.example.com,555-010-0190,Bookkeeper,Staff,CO-036,trailheadhomecare.example.com,opportunity,Paid Social,2026-06-25,None,,,1,false,false
+CT-0191,Parker,Sato,parker.sato@trailheadhomecare.example.com,555-010-0191,CEO,Owner/Executive,CO-036,trailheadhomecare.example.com,opportunity,Referrals,2026-08-15,Expired,2026-08-22,true,6,true,false
+CT-0192,Robin,Garcia,robin.garcia@trailheadhomecare.example.com,555-010-0192,CEO,Owner/Executive,CO-036,trailheadhomecare.example.com,opportunity,Direct Traffic,2026-08-21,None,,,2,false,false
+CT-0193,Peyton,Muller,peyton.muller33@trailheadhomecare.example.com,555-010-0193,General Manager,Manager,CO-036,trailheadhomecare.example.com,opportunity,Email Marketing,2026-07-24,None,,,2,false,false
+CT-0194,Casey,Garcia,casey.garcia@harborviewpestcontrol.example.com,555-010-0194,CEO,Owner/Executive,CO-037,harborviewpestcontrol.example.com,marketingqualifiedlead,Organic Search,2026-09-03,Expired,2026-09-09,true,0,false,true
+CT-0195,Jordan,Kowalski,jordan.kowalski63@harborviewpestcontrol.example.com,555-010-0195,Owner,Owner/Executive,CO-037,harborviewpestcontrol.example.com,subscriber,Paid Search,2026-10-04,None,,,2,false,false
+CT-0196,Logan,Okafor,logan.okafor77@harborviewpestcontrol.example.com,555-010-0196,Owner,Owner/Executive,CO-037,harborviewpestcontrol.example.com,marketingqualifiedlead,Email Marketing,2026-04-29,Expired,2026-05-03,false,1,false,false
+CT-0197,Dana,Jansen,dana.jansen83@harborviewpestcontrol.example.com,555-010-0197,Office Manager,Staff,CO-037,harborviewpestcontrol.example.com,lead,Referrals,2026-08-23,None,,,0,false,false
+CT-0198,Sawyer,Okafor,sawyer.okafor@harborviewpestcontrol.example.com,555-010-0198,President,Owner/Executive,CO-037,harborviewpestcontrol.example.com,marketingqualifiedlead,Referrals,2026-07-25,Expired,2026-07-26,false,1,false,false
+CT-0199,Skyler,Muller,skyler.muller@harborviewpestcontrol.example.com,555-010-0199,President,Owner/Executive,CO-037,harborviewpestcontrol.example.com,lead,Direct Traffic,2026-07-13,None,,,2,false,false
+CT-0200,Reese,Kowalski,reese.kowalski@harborviewpestcontrol.example.com,555-010-0200,Technician,Staff,CO-037,harborviewpestcontrol.example.com,lead,Organic Search,2026-04-30,None,,,2,false,false
+CT-0201,Hayden,Novak,hayden.novak@clearwaterlandscaping.example.com,555-010-0201,,,CO-038,clearwaterlandscaping.example.com,customer,Paid Search,2026-08-18,Expired,2026-08-19,false,3,false,false
+CT-0202,Hayden,Fischer,hayden.fischer38@clearwaterlandscaping.example.com,555-010-0202,Office Manager,Staff,CO-038,clearwaterlandscaping.example.com,customer,Direct Traffic,2026-04-22,None,,,2,false,true
+CT-0203,Morgan,Novak,morgan.novak@clearwaterlandscaping.example.com,555-010-0203,Owner,Owner/Executive,CO-038,clearwaterlandscaping.example.com,customer,Direct Traffic,2026-07-27,None,,,0,false,false
+CT-0204,Kendall,Brooks,kendall.brooks@clearwaterlandscaping.example.com,555-010-0204,Service Manager,Manager,CO-038,clearwaterlandscaping.example.com,customer,Referrals,2026-10-08,None,,,1,false,false
+CT-0205,Robin,Diaz,robin.diaz@mapleleafpestcontrol.example.com,555-010-0205,Owner,Owner/Executive,CO-039,mapleleafpestcontrol.example.com,lead,Paid Social,2026-10-05,None,,,2,false,false
+CT-0206,Skyler,Hale,skyler.hale@gmail.com,555-010-0206,Owner,Owner/Executive,,,salesqualifiedlead,Paid Social,2026-05-03,Expired,2026-05-08,true,1,true,false
+CT-0207,Finley,Rossi,finley.rossi@mapleleafpestcontrol.example.com,555-010-0207,Office Manager,Staff,CO-039,mapleleafpestcontrol.example.com,lead,Referrals,2026-06-30,None,,,2,false,false
+CT-0208,Alex,Reyes,alex.reyes@mapleleafpestcontrol.example.com,555-010-0208,Office Manager,Staff,CO-039,mapleleafpestcontrol.example.com,lead,Direct Traffic,2026-05-05,None,,,2,false,false
+CT-0209,Avery,Kowalski,avery.kowalski@mapleleafpestcontrol.example.com,555-010-0209,Office Manager,Staff,CO-039,mapleleafpestcontrol.example.com,lead,Direct Traffic,2026-10-03,None,,,0,false,false
+CT-0210,Riley,Shah,riley.shah@mapleleafpestcontrol.example.com,555-010-0210,Bookkeeper,Staff,CO-039,mapleleafpestcontrol.example.com,lead,Referrals,2026-07-11,None,,,0,false,false
+CT-0211,Jesse,Patel,jesse.patel@mapleleafpestcontrol.example.com,555-010-0211,General Manager,Manager,CO-039,mapleleafpestcontrol.example.com,subscriber,Email Marketing,2026-07-09,None,,,2,false,false
+CT-0212,Kendall,Garcia,kendall.garcia@stonebridgeheatingandair.example.com,555-010-0212,CEO,Owner/Executive,CO-040,stonebridgeheatingandair.example.com,opportunity,Direct Traffic,2026-08-12,None,,,2,false,true
+CT-0213,Reese,Torres,reese.torres@stonebridgeheatingandair.example.com,555-010-0213,Bookkeeper,Staff,CO-040,stonebridgeheatingandair.example.com,opportunity,Paid Social,2026-05-21,None,,,1,false,false
+CT-0214,Rowan,Lund,rowan.lund@stonebridgeheatingandair.example.com,555-010-0214,Service Manager,Manager,CO-040,stonebridgeheatingandair.example.com,opportunity,Paid Search,2026-05-27,None,,,0,false,false
+CT-0215,Robin,Weber,robin.weber@stonebridgeheatingandair.example.com,555-010-0215,Office Manager,Staff,CO-040,stonebridgeheatingandair.example.com,opportunity,Direct Traffic,2026-09-08,Expired,2026-09-09,true,5,false,false
+CT-0216,Finley,Garcia,finley.garcia71@stonebridgeheatingandair.example.com,+15550100216,Owner,Owner/Executive,CO-040,stonebridgeheatingandair.example.com,opportunity,Paid Social,2026-05-12,Expired,2026-05-17,true,0,false,false
+CT-0217,Emerson,Jansen,emerson.jansen@stonebridgeheatingandair.example.com,555-010-0217,Technician,Staff,CO-040,stonebridgeheatingandair.example.com,opportunity,Referrals,2026-06-18,Expired,2026-06-25,false,3,false,false
+CT-0218,Jordan,Nguyen,jordan.nguyen@mapleleafhomecare.example.com,555-010-0218,Owner,Owner/Executive,CO-041,mapleleafhomecare.example.com,subscriber,Paid Search,2026-07-22,None,,,1,false,true
+CT-0219,Sam,Diaz,sam.diaz@mapleleafhomecare.example.com,555-010-0219,Owner,Owner/Executive,CO-041,mapleleafhomecare.example.com,marketingqualifiedlead,Email Marketing,2026-05-02,Expired,2026-05-04,true,6,false,true
+CT-0220,Hayden,Johnson,hayden.johnson@mapleleafhomecare.example.com,555-010-0220,Technician,Staff,CO-041,mapleleafhomecare.example.com,lead,Paid Search,2026-05-13,None,,,2,false,false
+CT-0221,Emerson,Nguyen,emerson.nguyen@mapleleafhomecare.example.com,555-010-0221,Service Manager,Manager,CO-041,mapleleafhomecare.example.com,marketingqualifiedlead,Organic Search,2026-07-01,Expired,2026-07-05,false,4,false,false
+CT-0222,Avery,Shah,avery.shah94@mapleleafhomecare.example.com,555-010-0222,Dispatcher,Staff,CO-041,mapleleafhomecare.example.com,marketingqualifiedlead,Paid Social,2026-07-19,Expired,2026-07-19,true,6,false,false
+CT-0223,Alex,Nguyen,alex.nguyen@mapleleafhomecare.example.com,555-010-0223,Bookkeeper,Staff,CO-041,mapleleafhomecare.example.com,lead,Referrals,2026-07-12,None,,,2,false,false
+CT-0224,Dana,Shah,dana.shah@prairieroofing.example.com,555-010-0224,CEO,Owner/Executive,CO-042,prairieroofing.example.com,customer,Organic Search,2026-07-20,None,,,0,false,false
+CT-0225,Logan,Rossi,logan.rossi@prairieroofing.example.com,555-010-0225,Owner,Owner/Executive,CO-042,prairieroofing.example.com,lead,Paid Social,2026-09-11,None,,,2,false,false
+CT-0226,Sam,Okafor,sam.okafor@prairieroofing.example.com,555-010-0226,President,Owner/Executive,CO-042,prairieroofing.example.com,customer,Organic Search,2026-06-26,None,,,0,false,true
+CT-0227,Peyton,Weber,peyton.weber@brightpathheatingandair.example.com,555-010-0227,Owner,Owner/Executive,CO-043,brightpathheatingandair.example.com,lead,Direct Traffic,2026-08-09,None,,,2,false,false
+CT-0228,Reese,Muller,reese.muller@brightpathheatingandair.example.com,555-010-0228,General Manager,Manager,CO-043,brightpathheatingandair.example.com,marketingqualifiedlead,Paid Search,2026-07-01,Expired,2026-07-01,true,0,false,false
+CT-0229,Avery,Nguyen,avery.nguyen@brightpathheatingandair.example.com,555-010-0229,Technician,Staff,CO-043,brightpathheatingandair.example.com,subscriber,Paid Search,2026-05-16,None,,,2,false,true
+CT-0230,Parker,Iverson,parker.iverson21@apexhomecare.example.com,555-010-0230,President,Owner/Executive,CO-044,apexhomecare.example.com,lead,Paid Social,2026-07-03,None,,,2,false,false
+CT-0231,Jamie,Nguyen,jamie.nguyen@apexhomecare.example.com,555-010-0231,President,Owner/Executive,CO-044,apexhomecare.example.com,marketingqualifiedlead,Organic Search,2026-05-05,Expired,2026-05-08,false,1,false,false
+CT-0232,Finley,Garcia,finley.garcia63@apexhomecare.example.com,555-010-0232,Office Manager,Staff,CO-044,apexhomecare.example.com,marketingqualifiedlead,Paid Social,2026-08-04,Expired,2026-08-06,false,5,false,false
+CT-0233,Robin,Young,robin.young@apexhomecare.example.com,555-010-0233,General Manager,Manager,CO-044,apexhomecare.example.com,subscriber,Paid Social,2026-08-12,None,,,0,false,false
+CT-0234,Robin,Weber,robin.weber45@apexhomecare.example.com,555-010-0234,Operations Manager,Manager,CO-044,apexhomecare.example.com,subscriber,Paid Search,2026-04-24,None,,,0,false,false
+CT-0235,Alex,Mora,alex.mora@apexhomecare.example.com,555-010-0235,Owner,Owner/Executive,CO-044,apexhomecare.example.com,lead,Paid Social,2026-05-09,None,,,0,false,false
+CT-0236,Drew,Abbott,drew.abbott@pinecrestroofing.example.com,555-010-0236,Owner,Owner/Executive,CO-045,pinecrestroofing.example.com,lead,Email Marketing,2026-06-18,None,,,1,false,false
+CT-0237,Emerson,Muller,,555-010-0237,CEO,Owner/Executive,CO-045,pinecrestroofing.example.com,marketingqualifiedlead,Organic Search,2026-09-19,Expired,2026-09-21,false,6,false,false
+CT-0238,Reese,Patel,reese.patel@pinecrestroofing.example.com,555-010-0238,Operations Manager,Manager,CO-045,pinecrestroofing.example.com,lead,Paid Social,2026-09-20,None,,,0,false,false
+CT-0239,Robin,Hale,robin.hale@pinecrestroofing.example.com,555-010-0239,President,Owner/Executive,CO-045,pinecrestroofing.example.com,lead,Email Marketing,2026-07-30,None,,,1,false,false
+CT-0240,Quinn,Rossi,quinn.rossi@@pinecrestroofing.example.con,555-010-0240,President,Owner/Executive,CO-045,pinecrestroofing.example.com,salesqualifiedlead,Referrals,2026-07-22,Expired,2026-08-01,true,5,true,true
+CT-0241,Casey,Torres,casey.torres@pinecrestroofing.example.com,555-010-0241,Operations Manager,Manager,CO-045,pinecrestroofing.example.com,lead,Direct Traffic,2026-10-10,None,,,0,false,true
+CT-0242,Hayden,Kowalski,hayden.kowalski@anchorheatingandair.example.com,555-010-0242,CEO,Owner/Executive,CO-046,anchorheatingandair.example.com,marketingqualifiedlead,Paid Search,2026-04-16,Expired,2026-04-21,true,2,false,false
+CT-0243,Sawyer,Brooks,sawyer.brooks@anchorheatingandair.example.com,555-010-0243,Office Manager,Staff,CO-046,anchorheatingandair.example.com,lead,Email Marketing,2026-07-27,None,,,1,false,false
+CT-0244,Rowan,Mora,rowan.mora41@yahoo.com,555-010-0244,Technician,Staff,,,marketingqualifiedlead,Paid Social,2026-06-01,Expired,2026-06-10,true,2,false,false
+CT-0245,Finley,Patel,finley.patel@anchorheatingandair.example.com,5550100245,CEO,Owner/Executive,CO-046,anchorheatingandair.example.com,marketingqualifiedlead,Direct Traffic,2026-08-06,Expired,2026-08-06,true,5,false,false
+CT-0246,Hayden,Sato,hayden.sato@@summithomecare.example.con,5550100246,CEO,Owner/Executive,CO-047,summithomecare.example.com,opportunity,Direct Traffic,2026-09-28,Active,2026-10-03,true,6,true,false
+CT-0247,Morgan,Reyes,morgan.reyes@summithomecare.example.com,555-010-0247,Owner,Owner/Executive,CO-047,summithomecare.example.com,opportunity,Direct Traffic,2026-09-18,Expired,2026-09-26,true,1,false,false
+CT-0248,Quinn,Kim,quinn.kim60@summithomecare.example.com,+15550100248,Dispatcher,Staff,CO-047,summithomecare.example.com,opportunity,Direct Traffic,2026-05-29,Expired,2026-06-08,true,5,false,true
+CT-0249,Reese,Okafor,reese.okafor@willowcreekheatingandair.example.com,5550100249,President,Owner/Executive,CO-048,willowcreekheatingandair.example.com,lead,Paid Search,2026-06-23,None,,,1,false,false
+CT-0250,Peyton,Muller,peyton.muller@willowcreekheatingandair.example.com,(555) 010-0250,Dispatcher,Staff,CO-048,willowcreekheatingandair.example.com,marketingqualifiedlead,Referrals,2026-10-05,Active,2026-10-11,true,4,false,false
+CT-0251,Sawyer,Shah,sawyer.shah@willowcreekheatingandair.example.com,555-010-0251,Office Manager,Staff,CO-048,willowcreekheatingandair.example.com,marketingqualifiedlead,Paid Search,2026-09-16,Expired,2026-09-25,false,6,false,false
+CT-0252,Dana,Walsh,dana.walsh@willowcreekheatingandair.example.com,555-010-0252,Office Manager,Staff,CO-048,willowcreekheatingandair.example.com,salesqualifiedlead,Referrals,2026-07-18,Expired,2026-07-27,false,6,true,false
+CT-0253,Rowan,Lund,rowan.lund@willowcreekheatingandair.example.com,555-010-0253,Technician,Staff,CO-048,willowcreekheatingandair.example.com,subscriber,Paid Search,2026-04-29,None,,,2,false,false
+CT-0254,Jamie,Jansen,jamie.jansen@gmail.com,555-010-0254,Owner,Owner/Executive,,,subscriber,Organic Search,2026-05-05,None,,,1,false,false
+CT-0255,Rowan,Novak,rowan.novak@brightpathplumbing.example.com,555-010-0255,Bookkeeper,Staff,CO-049,brightpathplumbing.example.com,customer,Organic Search,2026-07-23,Expired,2026-07-26,true,6,false,false
+CT-0256,Emerson,Weber,emerson.weber86@outlook.com,555-010-0256,Operations Manager,Manager,,,lead,Email Marketing,2026-09-08,None,,,1,false,false
+CT-0257,Sam,Rossi,sam.rossi96@brightpathplumbing.example.com,(555) 010-0257,Technician,Staff,CO-049,brightpathplumbing.example.com,marketingqualifiedlead,Paid Social,2026-05-16,Expired,2026-05-25,true,1,false,false
+CT-0258,Jesse,Rossi,jesse.rossi@gmail.com,555-010-0258,Bookkeeper,Staff,,,salesqualifiedlead,Paid Search,2026-05-17,Expired,2026-05-17,false,4,true,false
+CT-0259,Logan,Weber,logan.weber@cedarlineheatingandair.example.com,555-010-0259,CEO,Owner/Executive,CO-050,cedarlineheatingandair.example.com,opportunity,Referrals,2026-07-09,Expired,2026-07-19,false,6,false,false
+CT-0260,Rowan,Kowalski,rowan.kowalski@cedarlineheatingandair.example.com,555-010-0260,Office Manager,Staff,CO-050,cedarlineheatingandair.example.com,opportunity,Referrals,2026-10-03,None,,,0,false,false
+CT-0261,Cameron,Okafor,cameron.okafor@cedarlineheatingandair.example.com,555-010-0261,President,Owner/Executive,CO-050,cedarlineheatingandair.example.com,opportunity,Direct Traffic,2026-07-14,None,,,1,false,false
+CT-0262,Jamie,Muller,jamie.muller@keystonehomecare.example.com,555-010-0262,President,Owner/Executive,CO-051,keystonehomecare.example.com,customer,Organic Search,2026-07-18,Expired,2026-07-26,false,6,false,false
+CT-0263,Rowan,Weber,rowan.weber@keystonehomecare.example.com,555-010-0263,Service Manager,Manager,CO-051,keystonehomecare.example.com,customer,Referrals,2026-09-22,None,,,1,false,false
+CT-0264,Peyton,Johnson,peyton.johnson@keystonehomecare.example.com,555-010-0264,Operations Manager,Manager,CO-051,keystonehomecare.example.com,customer,Referrals,2026-05-02,Expired,2026-05-05,true,0,false,false
+CT-0265,Emerson,Kowalski,emerson.kowalski@keystonehomecare.example.com,555-010-0265,General Manager,Manager,CO-051,keystonehomecare.example.com,customer,Email Marketing,2026-04-18,None,,,2,false,false
+CT-0266,Sawyer,Sato,sawyer.sato@keystonehomecare.example.com,555-010-0266,Dispatcher,Staff,CO-051,keystonehomecare.example.com,customer,Paid Search,2026-06-30,None,,,1,false,false
+CT-0267,Taylor,Rossi,taylor.rossi@keystonehomecare.example.com,+15550100267,General Manager,Manager,CO-051,keystonehomecare.example.com,lead,Email Marketing,2026-07-08,Expired,2026-07-10,true,6,true,false
+CT-0268,Robin,Novak,robin.novak@gmail.com,555-010-0268,Owner,Owner/Executive,,,customer,Email Marketing,2026-08-23,None,,,1,false,false
+CT-0269,Robin,Young,robin.young@apexroofing.example.com,555-010-0269,President,Owner/Executive,CO-052,apexroofing.example.com,opportunity,Direct Traffic,2026-06-26,None,,,1,false,false
+CT-0270,Hayden,Patel,hayden.patel@apexroofing.example.com,5550100270,President,Owner/Executive,CO-052,apexroofing.example.com,opportunity,Paid Social,2026-05-19,None,,,0,false,false
+CT-0271,Drew,Iverson,drew.iverson@apexroofing.example.com,555-010-0271,Service Manager,Manager,CO-052,apexroofing.example.com,opportunity,Referrals,2026-07-22,None,,,0,false,false
+CT-0272,Jesse,Jansen,jesse.jansen41@pinecrestcleaningco.example.com,555-010-0272,Owner,Owner/Executive,CO-053,pinecrestcleaningco.example.com,customer,Direct Traffic,2026-09-21,Expired,2026-09-30,false,6,true,false
+CT-0273,Jesse,Young,jesse.young@pinecrestcleaningco.example.com,555-010-0273,Dispatcher,Staff,CO-053,pinecrestcleaningco.example.com,customer,Referrals,2026-09-05,None,,,1,false,false
+CT-0274,Rowan,Johnson,rowan.johnson@outlook.com,5550100274,,,,,customer,Direct Traffic,2026-06-24,Expired,2026-06-30,true,3,false,false
+CT-0275,Reese,Reyes,reese.reyes@pinecrestcleaningco.example.com,555-010-0275,Service Manager,Manager,CO-053,pinecrestcleaningco.example.com,customer,Paid Search,2026-04-08,None,,,2,false,false
+CT-0276,Jordan,Walsh,jordan.walsh68@oakridgehomecare.example.com,555-010-0276,Owner,Owner/Executive,CO-054,oakridgehomecare.example.com,lead,Referrals,2026-06-25,None,,,1,false,false
+CT-0277,Jamie,Fischer,jamie.fischer@oakridgehomecare.example.com,555-010-0277,Service Manager,Manager,CO-054,oakridgehomecare.example.com,customer,Paid Search,2026-07-17,Expired,2026-07-20,false,3,false,false
+CT-0278,Quinn,Fischer,quinn.fischer93@oakridgehomecare.example.com,555-010-0278,,,CO-054,oakridgehomecare.example.com,customer,Direct Traffic,2026-06-07,Expired,2026-06-10,false,0,false,false
+CT-0279,Morgan,Muller,morgan.muller@oakridgehomecare.example.com,555-010-0279,Bookkeeper,Staff,CO-054,oakridgehomecare.example.com,lead,Organic Search,2026-04-12,Expired,2026-04-22,false,3,false,false
+CT-0280,Quinn,Young,quinn.young@oakridgehomecare.example.com,555-010-0280,,,CO-054,oakridgehomecare.example.com,customer,Paid Social,2026-06-21,None,,,0,false,false
+CT-0281,Cameron,Abbott,cameron.abbott@oakridgehomecare.example.com,555-010-0281,,,CO-054,oakridgehomecare.example.com,customer,Paid Search,2026-10-01,Active,2026-10-03,true,5,false,false
+CT-0282,Taylor,Sato,taylor.sato@mapleleafroofing.example.com,555-010-0282,CEO,Owner/Executive,CO-055,mapleleafroofing.example.com,opportunity,Email Marketing,2026-04-12,Expired,2026-04-16,false,5,false,false
+CT-0283,Dana,Lund,dana.lund@mapleleafroofing.example.com,555-010-0283,President,Owner/Executive,CO-055,mapleleafroofing.example.com,opportunity,Organic Search,2026-09-08,None,,,2,false,false
+CT-0284,Emerson,Sato,emerson.sato@mapleleafroofing.example.com,555-010-0284,Service Manager,Manager,CO-055,mapleleafroofing.example.com,opportunity,Referrals,2026-10-10,None,,,0,false,false
+CT-0285,Peyton,Garcia,peyton.garcia@mapleleafroofing.example.com,555-010-0285,Dispatcher,Staff,CO-055,mapleleafroofing.example.com,opportunity,Paid Search,2026-08-31,None,,,1,false,false
+CT-0286,Jesse,Rossi,jesse.rossi29@highlandcleaningco.example.com,555-010-0286,Owner,Owner/Executive,CO-056,highlandcleaningco.example.com,customer,Referrals,2026-05-09,Expired,2026-05-15,false,5,true,false
+CT-0287,Finley,Johnson,finley.johnson@highlandcleaningco.example.com,555-010-0287,Operations Manager,Manager,CO-056,highlandcleaningco.example.com,customer,Direct Traffic,2026-05-24,None,,,0,false,false
+CT-0288,Drew,Patel,drew.patel@highlandcleaningco.example.com,555-010-0288,Technician,Staff,CO-056,highlandcleaningco.example.com,customer,Email Marketing,2026-04-08,Expired,2026-04-17,false,4,true,false
+CT-0289,Emerson,Walsh,emerson.walsh@highlandcleaningco.example.com,(555) 010-0289,Owner,Owner/Executive,CO-056,highlandcleaningco.example.com,customer,Paid Search,2026-06-29,Expired,2026-06-29,true,2,false,true
+CT-0290,Sawyer,Garcia,sawyer.garcia@highlandcleaningco.example.com,555-010-0290,CEO,Owner/Executive,CO-056,highlandcleaningco.example.com,customer,Direct Traffic,2026-07-26,Expired,2026-08-03,false,2,false,false
+CT-0291,Alex,Abbott,alex.abbott@highlandcleaningco.example.com,555-010-0291,Operations Manager,Manager,CO-056,highlandcleaningco.example.com,customer,Organic Search,2026-09-09,Expired,2026-09-14,false,2,false,false
+CT-0292,Peyton,Okafor,peyton.okafor@highlandcleaningco.example.com,555-010-0292,President,Owner/Executive,CO-056,highlandcleaningco.example.com,customer,Paid Search,2026-05-11,None,,,1,false,false
+CT-0293,Taylor,Young,taylor.young@pinecrestheatingandair.example.com,555-010-0293,CEO,Owner/Executive,CO-057,pinecrestheatingandair.example.com,subscriber,Organic Search,2026-06-23,None,,,0,false,false
+CT-0294,Avery,Novak,avery.novak@pinecrestheatingandair.example.com,555-010-0294,CEO,Owner/Executive,CO-057,pinecrestheatingandair.example.com,salesqualifiedlead,Organic Search,2026-08-05,Expired,2026-08-15,false,3,true,false
+CT-0295,Alex,Jansen,alex.jansen99@pinecrestheatingandair.example.com,555-010-0295,Dispatcher,Staff,CO-057,pinecrestheatingandair.example.com,marketingqualifiedlead,Organic Search,2026-10-06,Active,2026-10-15,false,6,false,false
+CT-0296,Peyton,Fischer,peyton.fischer74@pinecrestheatingandair.example.com,555-010-0296,CEO,Owner/Executive,CO-057,pinecrestheatingandair.example.com,subscriber,Referrals,2026-08-22,None,,,2,false,false
+CT-0297,Alex,Nguyen,alex.nguyen46@pinecrestheatingandair.example.com,555-010-0297,Technician,Staff,CO-057,pinecrestheatingandair.example.com,marketingqualifiedlead,Referrals,2026-05-21,Expired,2026-05-31,true,0,false,true
+CT-0298,Morgan,Young,morgan.young@bluewavelandscaping.example.com,555-010-0298,,,CO-058,bluewavelandscaping.example.com,customer,Referrals,2026-04-11,None,,,0,false,false
+CT-0299,Casey,Lund,casey.lund@bluewavelandscaping.example.com,555-010-0299,Dispatcher,Staff,CO-058,bluewavelandscaping.example.com,customer,Email Marketing,2026-05-10,None,,,1,false,false
+CT-0300,Kendall,Novak,kendall.novak@bluewavelandscaping.example.com,555-010-0300,Technician,Staff,CO-058,bluewavelandscaping.example.com,customer,Paid Social,2026-05-16,Expired,2026-05-18,true,4,false,false
+CT-0301,Quinn,Abbott,quinn.abbott@riverbendcleaningco.example.com,555-010-0301,CEO,Owner/Executive,CO-059,riverbendcleaningco.example.com,salesqualifiedlead,Referrals,2026-08-29,Expired,2026-08-29,false,4,true,false
+CT-0302,Parker,Sato,parker.sato@riverbendcleaningco.example.com,555-010-0302,President,Owner/Executive,CO-059,riverbendcleaningco.example.com,lead,Referrals,2026-09-18,None,,,2,false,true
+CT-0303,Jesse,Kim,jesse.kim@riverbendcleaningco.example.com,555-010-0303,President,Owner/Executive,CO-059,riverbendcleaningco.example.com,lead,Email Marketing,2026-07-22,None,,,1,false,false
+CT-0304,Rowan,Muller,rowan.muller@foothillheatingandair.example.com,555-010-0304,Owner,Owner/Executive,CO-060,foothillheatingandair.example.com,lead,Organic Search,2026-09-13,None,,,2,false,false
+CT-0305,Jordan,Rossi,jordan.rossi@foothillheatingandair.example.com,555-010-0305,Dispatcher,Staff,CO-060,foothillheatingandair.example.com,subscriber,Paid Social,2026-05-19,None,,,1,false,false
+CT-0306,Jesse,Reyes,jesse.reyes@foothillheatingandair.example.com,555-010-0306,,,CO-060,foothillheatingandair.example.com,subscriber,Organic Search,2026-10-08,None,,,1,false,false
+CT-0307,Emerson,Young,emerson.young@foothillheatingandair.example.com,555-010-0307,Bookkeeper,Staff,CO-060,foothillheatingandair.example.com,subscriber,Paid Search,2026-09-01,None,,,1,false,false
+CT-0308,Log,Mora,logan.mora@sunrisecleaningco.example.com,555-010-0173,Owner,Owner/Executive,CO-033,sunrisecleaningco.example.com,opportunity,Paid Social,2026-08-04,None,,,1,false,false
+CT-0309,Taylor,Weber,taylor.weber1@prairielandscaping.example.com,555-010-0108,President,Owner/Executive,CO-020,prairielandscaping.example.com,opportunity,Paid Search,2026-09-16,Expired,2026-09-02,true,5,false,false
+CT-0310,Emerson,Walsh,emerson.walsh1@keystonepestcontrol.example.com,+15550100039,Operations Manager,Manager,CO-007,keystonepestcontrol.example.com,marketingqualifiedlead,Paid Search,2026-05-17,Expired,2026-04-27,false,6,false,false
+CT-0311,Kendall,Iverson,kendall.iverson1@summitpestcontrol.example.com,555-010-0030,,,CO-005,summitpestcontrol.example.com,customer,Paid Social,2026-06-23,None,,,1,false,false
+CT-0312,Casey,Torres,casey.torres1@summitpestcontrol.example.com,555-010-0029,Bookkeeper,Staff,CO-005,summitpestcontrol.example.com,customer,Email Marketing,2026-08-27,None,,,1,false,true
+CT-0313,Sky,Rossi,skyler.rossi14@keystonecleaningco.example.com,555-010-0001,CEO,Owner/Executive,CO-001,keystonecleaningco.example.com,marketingqualifiedlead,Direct Traffic,2026-08-26,Expired,2026-08-05,true,3,false,false
+CT-0314,Row,Abbott,rowan.abbott@keystonecleaningco.example.com,555-010-0002,Technician,Staff,CO-001,keystonecleaningco.example.com,marketingqualifiedlead,Organic Search,2026-05-03,Expired,2026-04-18,true,5,false,false
+CT-0315,Reese,Lund,REESE.LUND@KEYSTONECLEANINGCO.EXAMPLE.COM,(555) 010-0006,Operations Manager,Manager,CO-001,keystonecleaningco.example.com,salesqualifiedlead,Direct Traffic,2026-10-26,Expired,2026-09-24,true,3,true,false
+CT-0316,test,test,test@test.com,,,,,,lead,Direct Traffic,2026-08-01,None,,,0,false,false
+CT-0317,asdf,asdf,asdf@asdf.com,,,,,,lead,Direct Traffic,2026-08-01,None,,,0,false,false
+CT-0318,John,Doe,john.doe@example.com,,,,,,lead,Direct Traffic,2026-08-01,None,,,0,false,false

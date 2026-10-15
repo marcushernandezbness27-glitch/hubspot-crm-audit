@@ -1,0 +1,64 @@
+deal_ref,dealname,company_ref,company_domain,pipeline,dealstage,amount,createdate,closedate,last_activity_date
+DL-001,Coastal Roofing — New subscription,CO-004,coastalroofing.example.com,default,decisionmakerboughtin,12036,2026-06-11,2026-10-05,2026-09-21
+DL-002,Summit Pest Control — Seat expansion,CO-005,summitpestcontrol.example.com,default,closedwon,,2026-04-24,2026-06-13,2026-06-12
+DL-003,Summit Pest Control — New subscription,CO-005,summitpestcontrol.example.com,default,closedlost,2844,2026-07-24,2026-09-05,2026-09-02
+DL-004,Trailhead Pest Control — Seat expansion,CO-006,trailheadpestcontrol.example.com,default,decisionmakerboughtin,5616,2026-09-28,2026-12-03,2026-09-28
+DL-005,Metro Heating & Air — Seat expansion,CO-008,metroheatingandair.example.com,default,closedlost,,2026-07-02,2026-08-31,2026-08-29
+DL-006,Metro Heating & Air — Pro upgrade,CO-008,metroheatingandair.example.com,default,closedlost,11376,2026-05-03,2026-06-10,2026-06-08
+DL-007,Pinecrest Plumbing — Seat expansion,CO-013,pinecrestplumbing.example.com,default,appointmentscheduled,11232,2026-06-12,2027-01-13,2026-06-29
+DL-008,Oakridge Heating & Air — Annual plan,CO-014,oakridgeheatingandair.example.com,default,appointmentscheduled,7584,2026-06-16,2026-11-30,2026-10-06
+DL-009,Oakridge Heating & Air — Pro upgrade,CO-014,oakridgeheatingandair.example.com,default,contractsent,11700,2026-07-17,2026-12-19,2026-09-20
+DL-010,Riverbend Heating & Air — Annual plan,CO-015,riverbendheatingandair.example.com,default,closedwon,,2026-06-07,2026-08-03,2026-08-01
+DL-011,Riverbend Heating & Air — Annual plan,,,default,closedlost,11376,2026-04-22,2026-05-27,2026-05-23
+DL-012,Silverline Heating & Air — Pro upgrade,CO-016,silverlineheatingandair.example.com,default,closedlost,5148,2026-06-22,2026-08-05,2026-07-31
+DL-013,Silverline Heating & Air — Seat expansion,CO-016,silverlineheatingandair.example.com,default,contractsent,23700,2026-09-21,2026-12-04,2026-09-21
+DL-014,Harborview Home Care — Annual plan,CO-017,harborviewhomecare.example.com,default,appointmentscheduled,9480,2026-09-14,2026-12-23,2026-08-19
+DL-015,Harborview Home Care — Annual plan,CO-017,harborviewhomecare.example.com,default,closedwon,15576,2026-08-05,2026-10-01,2026-09-26
+DL-016,Metro Landscaping — Pro upgrade,CO-018,metrolandscaping.example.com,default,closedwon,6084,2026-08-11,2026-09-24,2026-09-19
+DL-017,Metro Landscaping — New subscription,CO-018,metrolandscaping.example.com,default,presentationscheduled,8424,2026-04-20,2026-12-25,2026-07-22
+DL-018,Highland Pest Control — New subscription,CO-019,highlandpestcontrol.example.com,default,closedwon,13452,2026-08-19,2026-09-06,2026-09-01
+DL-019,Prairie Landscaping — Pro upgrade,CO-020,prairielandscaping.example.com,default,contractsent,15168,2026-09-30,2027-01-05,2026-07-11
+DL-020,Bluewave Pest Control — New subscription,CO-021,bluewavepestcontrol.example.com,default,appointmentscheduled,12036,2026-09-14,2026-12-08,2026-09-16
+DL-021,Bluewave Pest Control — Pro upgrade,CO-021,bluewavepestcontrol.example.com,default,contractsent,17700,2026-06-09,2026-11-23,2026-09-26
+DL-022,Riverbend Landscaping — New subscription,CO-022,riverbendlandscaping.example.com,default,appointmentscheduled,,2026-10-03,2027-01-04,2026-10-03
+DL-023,Riverbend Landscaping — Seat expansion,CO-022,riverbendlandscaping.example.com,default,contractsent,7488,2026-09-28,2026-11-08,2026-09-28
+DL-024,Willow Creek Roofing — Annual plan,CO-023,willowcreekroofing.example.com,default,appointmentscheduled,8496,2026-04-19,2026-11-23,2026-10-11
+DL-025,Anchor Electric — New subscription,CO-024,anchorelectric.example.com,default,qualifiedtobuy,15168,2026-09-13,2026-12-22,2026-08-24
+DL-026,Clearwater Roofing — New subscription,CO-025,clearwaterroofing.example.com,default,contractsent,7956,2026-07-04,2026-09-19,2026-09-18
+DL-027,Northgate Plumbing — New subscription,CO-027,northgateplumbing.example.com,default,closedwon,9360,2026-07-05,2026-07-27,2026-07-24
+DL-028,Stonebridge Home Care — Annual plan,CO-028,stonebridgehomecare.example.com,default,closedwon,22752,2026-08-03,2026-08-30,2026-08-29
+DL-029,Stonebridge Home Care — New subscription,CO-028,stonebridgehomecare.example.com,default,closedwon,7788,2026-07-08,2026-07-27,2026-07-26
+DL-030,Vantage Electric — New subscription,CO-029,vantageelectric.example.com,default,closedwon,15576,2026-08-28,2026-09-27,2026-09-26
+DL-031,Vantage Electric — New subscription,CO-029,vantageelectric.example.com,default,closedlost,7080,2026-07-29,2026-08-29,2026-08-24
+DL-032,Pinecrest Landscaping — New subscription,CO-030,pinecrestlandscaping.example.com,default,closedlost,11328,2026-04-23,2026-05-25,2026-05-24
+DL-033,Redstone Cleaning Co — Seat expansion,CO-031,redstonecleaningco.example.com,default,closedwon,7956,2026-06-19,2026-07-24,2026-07-20
+DL-034,Northgate Landscaping — New subscription,CO-032,northgatelandscaping.example.com,default,closedwon,5148,2026-06-07,2026-07-24,2026-07-21
+DL-035,Northgate Landscaping — Seat expansion,CO-032,northgatelandscaping.example.com,default,decisionmakerboughtin,11700,2026-09-29,2026-08-30,2026-09-29
+DL-036,Sunrise Cleaning Co — New subscription,CO-033,sunrisecleaningco.example.com,default,decisionmakerboughtin,3792,2026-06-19,2027-01-10,2026-10-07
+DL-037,Sunrise Cleaning Co — New subscription,CO-033,sunrisecleaningco.example.com,default,appointmentscheduled,2844,2026-10-04,2026-12-24,2026-10-04
+DL-038,Lakewood Home Care — Seat expansion,,,default,closedlost,15576,2026-07-08,2026-08-26,2026-08-21
+DL-039,Lakewood Home Care — Annual plan,CO-035,lakewoodhomecare.example.com,default,decisionmakerboughtin,12036,2026-07-01,2026-12-14,2026-10-09
+DL-040,Trailhead Home Care — Seat expansion,CO-036,trailheadhomecare.example.com,default,appointmentscheduled,3792,2026-06-09,2026-12-24,2026-10-13
+DL-041,Trailhead Home Care — Pro upgrade,CO-036,trailheadhomecare.example.com,default,qualifiedtobuy,6636,2026-07-19,2026-11-25,2026-09-27
+DL-042,Harborview Pest Control — Annual plan,CO-037,harborviewpestcontrol.example.com,default,closedlost,22752,2026-06-11,2026-07-12,2026-07-11
+DL-043,Clearwater Landscaping — Seat expansion,CO-038,clearwaterlandscaping.example.com,default,closedwon,13452,2026-07-28,2026-08-26,2026-08-22
+DL-044,Stonebridge Heating & Air — Pro upgrade,CO-040,stonebridgeheatingandair.example.com,default,decisionmakerboughtin,3744,2026-09-22,2026-10-25,2026-10-03
+DL-045,Prairie Roofing — New subscription,CO-042,prairieroofing.example.com,default,closedwon,0,2026-05-02,2026-07-01,2026-06-27
+DL-046,Prairie Roofing — Seat expansion,CO-042,prairieroofing.example.com,default,contractsent,8424,2026-08-30,2026-09-01,2026-09-17
+DL-047,Summit Home Care — Annual plan,CO-047,summithomecare.example.com,default,decisionmakerboughtin,5616,2026-05-28,2026-11-20,2026-09-17
+DL-048,Willow Creek Heating & Air — Seat expansion,CO-048,willowcreekheatingandair.example.com,default,closedlost,14220,2026-05-27,2026-07-05,2026-07-04
+DL-049,Cedarline Heating & Air — Seat expansion,CO-050,cedarlineheatingandair.example.com,default,presentationscheduled,14868,2026-07-18,2026-11-25,2026-09-28
+DL-050,Cedarline Heating & Air — Seat expansion,CO-050,cedarlineheatingandair.example.com,default,closedlost,14868,2026-07-07,2026-08-05,2026-08-01
+DL-051,Keystone Home Care — Pro upgrade,CO-051,keystonehomecare.example.com,default,closedwon,4740,2026-06-13,2026-07-10,2026-07-09
+DL-052,Keystone Home Care — Pro upgrade,CO-051,keystonehomecare.example.com,default,presentationscheduled,12036,2026-06-06,2026-10-22,2026-10-05
+DL-053,Apex Roofing — Annual plan,CO-052,apexroofing.example.com,default,contractsent,936,2026-07-21,2026-11-27,2026-09-26
+DL-054,Apex Roofing — Seat expansion,CO-052,apexroofing.example.com,default,appointmentscheduled,5148,2026-09-09,2026-12-14,2026-09-18
+DL-055,Pinecrest Cleaning Co — Annual plan,CO-053,pinecrestcleaningco.example.com,default,closedwon,8496,2026-08-05,2026-09-30,2026-09-29
+DL-056,Pinecrest Cleaning Co — Seat expansion,CO-053,pinecrestcleaningco.example.com,default,closedwon,3540,2026-08-19,2026-10-12,2026-10-10
+DL-057,Oakridge Home Care — Pro upgrade,,,default,closedlost,10620,2026-07-22,2026-08-22,2026-08-21
+DL-058,Oakridge Home Care — Annual plan,CO-054,oakridgehomecare.example.com,default,closedwon,12036,2026-08-23,2026-10-02,2026-10-01
+DL-059,Maple Leaf Roofing — Annual plan,CO-055,mapleleafroofing.example.com,default,decisionmakerboughtin,14868,2026-05-03,2026-09-11,2026-10-10
+DL-060,Maple Leaf Roofing — Pro upgrade,CO-055,mapleleafroofing.example.com,default,decisionmakerboughtin,17064,2026-05-06,2026-11-23,2026-07-29
+DL-061,Highland Cleaning Co — New subscription,CO-056,highlandcleaningco.example.com,default,closedwon,0,2026-07-30,2026-09-13,2026-09-12
+DL-062,Bluewave Landscaping — Annual plan,CO-058,bluewavelandscaping.example.com,default,closedwon,17064,2026-08-09,2026-09-14,2026-09-10
+DL-063,Bluewave Landscaping — New subscription,CO-058,bluewavelandscaping.example.com,default,decisionmakerboughtin,2844,2026-09-05,2026-11-16,2026-09-27
