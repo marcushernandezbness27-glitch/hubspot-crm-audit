@@ -1,0 +1,24 @@
+{
+  "log": [
+    "2026-10-16T02:44:28.480Z start: delivered=5 last=\"Email 5: Trial ends soon + walkthrough (Day 12)\" demo=false",
+    "2026-10-16T02:45:28.909Z +60s: set Demo requested = true (HTTP 200)",
+    "2026-10-16T02:50:29.247Z +6m: delivered=5 (+0 since start) last=\"Email 5: Trial ends soon + walkthrough (Day 12)\"",
+    "2026-10-16T02:50:29.247Z PASS: only Email 1 went out; the goal unenrolled the contact before Email 2"
+  ],
+  "start": {
+    "createdate": "2026-10-15T14:54:30.101Z",
+    "ff_demo_requested": "false",
+    "hs_email_delivered": "5",
+    "hs_email_last_email_name": "Email 5: Trial ends soon + walkthrough (Day 12)",
+    "hs_object_id": "892205173960",
+    "lastmodifieddate": "2026-10-16T02:17:36.042Z"
+  },
+  "end": {
+    "createdate": "2026-10-15T14:54:30.101Z",
+    "ff_demo_requested": "true",
+    "hs_email_delivered": "5",
+    "hs_email_last_email_name": "Email 5: Trial ends soon + walkthrough (Day 12)",
+    "hs_object_id": "892205173960",
+    "lastmodifieddate": "2026-10-16T02:46:17.915Z"
+  }
+}

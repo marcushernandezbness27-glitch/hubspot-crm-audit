@@ -1,0 +1,54 @@
+{
+  "loaded_at": "2026-10-15T10:33:02.907Z",
+  "created": {
+    "companies": 0,
+    "contacts": 311,
+    "deals": 0
+  },
+  "skipped_existing": 126,
+  "rejected": [
+    {
+      "object": "contacts",
+      "ref": "CT-0135",
+      "reason": "invalid email (rejected by HubSpot validation)",
+      "detail": "Property values were not valid: [{\"isValid\":false,\"message\":\"Email address finley.kowalski@clearwaterroofing.example.con is invalid\",\"error\":\"INVALID_EMAIL\",\"name\":\"email\"}]"
+    },
+    {
+      "object": "contacts",
+      "ref": "CT-0240",
+      "reason": "invalid email (rejected by HubSpot validation)",
+      "detail": "Property values were not valid: [{\"isValid\":false,\"message\":\"Email address quinn.rossi@@pinecrestroofing.example.con is invalid\",\"error\":\"INVALID_EMAIL\",\"name\":\"email\"}]"
+    },
+    {
+      "object": "contacts",
+      "ref": "CT-0246",
+      "reason": "invalid email (rejected by HubSpot validation)",
+      "detail": "Property values were not valid: [{\"isValid\":false,\"message\":\"Email address hayden.sato@@summithomecare.example.con is invalid\",\"error\":\"INVALID_EMAIL\",\"name\":\"email\"}]"
+    },
+    {
+      "object": "contacts",
+      "ref": "CT-0308",
+      "reason": "duplicate (HubSpot: contact with this email already exists)",
+      "detail": "Contact already exists. Existing ID: 891896198387"
+    },
+    {
+      "object": "contacts",
+      "ref": "CT-0313",
+      "reason": "duplicate (HubSpot: contact with this email already exists)",
+      "detail": "Contact already exists. Existing ID: 892114103504"
+    },
+    {
+      "object": "contacts",
+      "ref": "CT-0314",
+      "reason": "duplicate (HubSpot: contact with this email already exists)",
+      "detail": "Contact already exists. Existing ID: 892049607873"
+    },
+    {
+      "object": "contacts",
+      "ref": "CT-0315",
+      "reason": "duplicate (HubSpot: contact with this email already exists)",
+      "detail": "Contact already exists. Existing ID: 891896195311"
+    }
+  ],
+  "deal_contact_links": 58
+}

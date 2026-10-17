@@ -1,0 +1,52 @@
+{
+  "log": [
+    "2026-10-16T02:05:08.485Z monitor started",
+    "2026-10-16T02:09:11.904Z last email: \"Email 2: The 3-minute setup (day 2)\" (delivered count 2)",
+    "2026-10-16T02:14:15.852Z last email: \"Email 5: Trial ends soon + walkthrough (Day 12)\" (delivered count 5)",
+    "2026-10-16T02:14:15.852Z FAIL: Email 5 was sent after the goal was met"
+  ],
+  "emailHistory": [
+    {
+      "value": "Email 5: Trial ends soon + walkthrough (Day 12)",
+      "timestamp": "2026-10-16T02:13:31.894Z",
+      "sourceType": "EMAIL"
+    },
+    {
+      "value": "Email 2: The 3-minute setup (day 2)",
+      "timestamp": "2026-10-16T02:07:18.608Z",
+      "sourceType": "EMAIL"
+    }
+  ],
+  "demoHistory": [
+    {
+      "value": "false",
+      "timestamp": "2026-10-16T00:32:11.384Z",
+      "sourceType": "INTEGRATION",
+      "sourceId": "57123169"
+    },
+    {
+      "value": "true",
+      "timestamp": "2026-10-16T00:02:55.335Z",
+      "sourceType": "INTEGRATION",
+      "sourceId": "57123169"
+    },
+    {
+      "value": "false",
+      "timestamp": "2026-10-15T14:54:30.101Z",
+      "sourceType": "INTEGRATION",
+      "sourceId": "57123169"
+    }
+  ],
+  "final": {
+    "createdate": "2026-10-15T14:54:30.101Z",
+    "ff_demo_requested": "false",
+    "hs_email_click": "3",
+    "hs_email_delivered": "5",
+    "hs_email_last_email_name": "Email 5: Trial ends soon + walkthrough (Day 12)",
+    "hs_email_last_send_date": "2026-10-16T02:13:32.814Z",
+    "hs_email_open": "3",
+    "hs_object_id": "892205173960",
+    "lastmodifieddate": "2026-10-16T02:09:01.102Z",
+    "lifecyclestage": "marketingqualifiedlead"
+  }
+}

@@ -214,3 +214,22 @@ Totals: 63 companies, 318 contacts, 63 deals.
 - DL-038 (was CO-035)
 - DL-057 (was CO-054)
 - DL-011 (was CO-015)
+
+## Load outcome (what HubSpot itself did, 2026-10-15)
+
+Loaded via `scripts/load_to_hubspot.mjs` into developer test account 149557707.
+HubSpot's own validation stopped some seeded problems at the door. The audit should
+**not** expect to find those in the CRM; it should credit HubSpot for them.
+
+| Outcome | Count | Records |
+|---|---|---|
+| Invalid emails **blocked** by HubSpot validation (all seeded ones, including `.example.con`) | 3 | CT-0135, CT-0240, CT-0246 |
+| Duplicate contacts **blocked** (same email, case-insensitive) | 4 | CT-0308, CT-0313, CT-0314, CT-0315 |
+| Duplicate contacts that **got through** (variant email), to be found by the audit | 4 | CT-0309→CT-0108, CT-0310→CT-0039, CT-0311→CT-0030, CT-0312→CT-0029 |
+| Deals with **no contact association** (knock-on: the company's primary contact was blocked) | 2 | DL-026 (primary contact CT-0135 was blocked at load); DL-047 (primary contact CT-0246 was blocked at load) |
+| HubSpot default **sample contacts** never removed (shipped with the account) | 2 | bh@hubspot.com, emailmaria@hubspot.com |
+| Lifecycle conflicts **auto-corrected by HubSpot's deal lifecycle sync** (contact directly associated with the closed-won deal) | 1 | CT-0276 (→ customer, 2026-10-15T10:36Z) |
+
+**Effective audit targets in the CRM:** the seeded table above, minus the 3 invalid emails and
+4 blocked duplicates, minus 1 lifecycle conflict(s) HubSpot auto-corrected, plus the 2 contact-less deals and 2 sample contacts.
+

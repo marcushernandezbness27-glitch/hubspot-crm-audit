@@ -1,0 +1,1053 @@
+{
+  "audited_at": "2026-10-15T13:02:51.083Z",
+  "as_of": "2026-10-15",
+  "account": 149557707,
+  "totals": {
+    "contacts": 313,
+    "companies": 63,
+    "deals": 63
+  },
+  "findings": [
+    {
+      "id": "C1",
+      "area": "Contacts",
+      "check": "Duplicate contacts (same mailbox ignoring digits, or same name at same company)",
+      "severity": "High",
+      "impact": "Same person emailed twice, activity history split across records, inflated contact counts.",
+      "fix": "Merge into the earliest record (Contacts → Actions → Manage duplicates); add a dedupe rule on form/import.",
+      "records": [
+        {
+          "id": "892033569982",
+          "ref": "CT-0077",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892033569982",
+          "note": "duplicate of CT-0081 (jesse.reyes@oakridgeheatingandair.example.com / jesse.reyes99@oakridgeheatingandair.example.com)"
+        },
+        {
+          "id": "892033685699",
+          "ref": "CT-0309",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892033685699",
+          "note": "duplicate of CT-0108 (taylor.weber@prairielandscaping.example.com / taylor.weber1@prairielandscaping.example.com)"
+        },
+        {
+          "id": "892048836810",
+          "ref": "CT-0310",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892048836810",
+          "note": "duplicate of CT-0039 (emerson.walsh@keystonepestcontrol.example.com / emerson.walsh1@keystonepestcontrol.example.com)"
+        },
+        {
+          "id": "892049890515",
+          "ref": "CT-0312",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049890515",
+          "note": "duplicate of CT-0029 (casey.torres@summitpestcontrol.example.com / casey.torres1@summitpestcontrol.example.com)"
+        },
+        {
+          "id": "892107068619",
+          "ref": "CT-0311",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892107068619",
+          "note": "duplicate of CT-0030 (kendall.iverson@summitpestcontrol.example.com / kendall.iverson1@summitpestcontrol.example.com)"
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "area": "Contacts",
+      "check": "Lifecycle stage ahead of reality (Customer with no closed-won deal at their company)",
+      "severity": "High",
+      "impact": "Customer counts and revenue attribution are overstated; prospects excluded from nurture.",
+      "fix": "Review each; reset to the stage their deals support. Restrict manual edits of lifecycle stage.",
+      "records": [
+        {
+          "id": "891824377023",
+          "ref": "CT-0051",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891824377023"
+        },
+        {
+          "id": "892033801402",
+          "ref": "CT-0255",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892033801402"
+        },
+        {
+          "id": "892049109241",
+          "ref": "CT-0268",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049109241"
+        },
+        {
+          "id": "892049405155",
+          "ref": "CT-0052",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049405155"
+        },
+        {
+          "id": "892050266358",
+          "ref": "CT-0161",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892050266358"
+        },
+        {
+          "id": "892104017141",
+          "ref": "CT-0146",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892104017141"
+        },
+        {
+          "id": "892116125920",
+          "ref": "CT-0274",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892116125920"
+        }
+      ]
+    },
+    {
+      "id": "C9",
+      "area": "Contacts",
+      "check": "Lifecycle stage behind reality (company has a closed-won deal, contact not Customer)",
+      "severity": "High",
+      "impact": "Customers keep getting prospect nurture; funnel and customer counts are understated.",
+      "fix": "Workflow: when an associated deal is closed-won, set all company contacts to Customer.",
+      "records": [
+        {
+          "id": "891898784998",
+          "ref": "CT-0225",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891898784998",
+          "note": "lead"
+        },
+        {
+          "id": "891898787003",
+          "ref": "CT-0279",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891898787003",
+          "note": "lead"
+        },
+        {
+          "id": "892046135523",
+          "ref": "CT-0171",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892046135523",
+          "note": "lead"
+        },
+        {
+          "id": "892047775956",
+          "ref": "CT-0267",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892047775956",
+          "note": "lead"
+        },
+        {
+          "id": "892107066566",
+          "ref": "CT-0172",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892107066566",
+          "note": "lead"
+        }
+      ]
+    },
+    {
+      "id": "D1",
+      "area": "Deals",
+      "check": "Open deals with a close date in the past",
+      "severity": "High",
+      "impact": "Forecast counts revenue in months that already ended; pipeline looks healthier than it is.",
+      "fix": "Rep review: re-date or close-lost; add a weekly 'past due' task workflow.",
+      "records": [
+        {
+          "id": "526888667359",
+          "ref": "DL-026",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526888667359",
+          "note": "2026-09-19"
+        },
+        {
+          "id": "526893971705",
+          "ref": "DL-059",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526893971705",
+          "note": "2026-09-11"
+        },
+        {
+          "id": "526900861156",
+          "ref": "DL-046",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526900861156",
+          "note": "2026-09-01"
+        },
+        {
+          "id": "526998910154",
+          "ref": "DL-001",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526998910154",
+          "note": "2026-10-05"
+        },
+        {
+          "id": "527004382398",
+          "ref": "DL-035",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/527004382398",
+          "note": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "area": "Deals",
+      "check": "Deals missing an amount",
+      "severity": "High",
+      "impact": "Pipeline and revenue totals understated; weighted forecast wrong.",
+      "fix": "Make amount required from 'Presentation scheduled' onward.",
+      "records": [
+        {
+          "id": "526998910155",
+          "ref": "DL-002",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526998910155"
+        },
+        {
+          "id": "527000749300",
+          "ref": "DL-005",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/527000749300"
+        },
+        {
+          "id": "527141474527",
+          "ref": "DL-010",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/527141474527"
+        },
+        {
+          "id": "527170197703",
+          "ref": "DL-022",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/527170197703"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "area": "Deals",
+      "check": "Closed-won deals with $0 amount",
+      "severity": "High",
+      "impact": "Won revenue understated; average deal size and ROAS wrong.",
+      "fix": "Correct from contract/billing; block closed-won with $0 via required-field rule.",
+      "records": [
+        {
+          "id": "526997467327",
+          "ref": "DL-061",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526997467327"
+        },
+        {
+          "id": "527327251672",
+          "ref": "DL-045",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/527327251672"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "area": "Contacts",
+      "check": "Missing email address",
+      "severity": "Medium",
+      "impact": "Can't be emailed, enrolled in nurture, or deduplicated by HubSpot.",
+      "fix": "Enrich from company website/LinkedIn or archive if unreachable.",
+      "records": [
+        {
+          "id": "892033061113",
+          "ref": "CT-0237",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892033061113"
+        },
+        {
+          "id": "892033470682",
+          "ref": "CT-0076",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892033470682"
+        },
+        {
+          "id": "892116022474",
+          "ref": "CT-0054",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892116022474"
+        },
+        {
+          "id": "892116400348",
+          "ref": "CT-0072",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892116400348"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "area": "Contacts",
+      "check": "Malformed email address",
+      "severity": "Medium",
+      "impact": "Bounces damage sender reputation.",
+      "fix": "Correct or remove; require email validation on forms.",
+      "records": []
+    },
+    {
+      "id": "C4",
+      "area": "Contacts",
+      "check": "Junk / test records",
+      "severity": "Medium",
+      "impact": "Pollutes counts, conversion rates and email lists.",
+      "fix": "Delete; block test submissions from production forms.",
+      "records": [
+        {
+          "id": "891905275119",
+          "ref": "CT-0317",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891905275119",
+          "note": "asdf@asdf.com"
+        },
+        {
+          "id": "892107068625",
+          "ref": "CT-0316",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892107068625",
+          "note": "test@test.com"
+        },
+        {
+          "id": "892116405479",
+          "ref": "CT-0318",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892116405479",
+          "note": "john.doe@example.com"
+        }
+      ]
+    },
+    {
+      "id": "C6",
+      "area": "Contacts",
+      "check": "Orphan contacts (no company association)",
+      "severity": "Medium",
+      "impact": "Excluded from account-level reporting and ABM; usually personal-email sign-ups.",
+      "fix": "Associate by asking/enriching company; set an 'unknown company' review queue.",
+      "records": [
+        {
+          "id": "891872664780",
+          "ref": "CT-0047",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891872664780",
+          "note": "morgan.kim@gmail.com (personal domain)"
+        },
+        {
+          "id": "891898783969",
+          "ref": "CT-0160",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891898783969",
+          "note": "parker.rossi@outlook.com (personal domain)"
+        },
+        {
+          "id": "891934772410",
+          "ref": "CT-0206",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891934772410",
+          "note": "skyler.hale@gmail.com (personal domain)"
+        },
+        {
+          "id": "892033062085",
+          "ref": "CT-0244",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892033062085",
+          "note": "rowan.mora41@yahoo.com (personal domain)"
+        },
+        {
+          "id": "892049011918",
+          "ref": "CT-0254",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049011918",
+          "note": "jamie.jansen@gmail.com (personal domain)"
+        },
+        {
+          "id": "892049109241",
+          "ref": "CT-0268",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049109241",
+          "note": "robin.novak@gmail.com (personal domain)"
+        },
+        {
+          "id": "892106964165",
+          "ref": "CT-0258",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892106964165",
+          "note": "jesse.rossi@gmail.com (personal domain)"
+        },
+        {
+          "id": "892107242740",
+          "ref": "CT-0256",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892107242740",
+          "note": "emerson.weber86@outlook.com (personal domain)"
+        },
+        {
+          "id": "892116125920",
+          "ref": "CT-0274",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892116125920",
+          "note": "rowan.johnson@outlook.com (personal domain)"
+        }
+      ]
+    },
+    {
+      "id": "C7",
+      "area": "Contacts",
+      "check": "Missing job title",
+      "severity": "Medium",
+      "impact": "Seniority can't be scored; persona segmentation breaks.",
+      "fix": "Make job title required on demo/trial forms; enrich existing.",
+      "records": [
+        {
+          "id": "891898787007",
+          "ref": "CT-0281",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891898787007"
+        },
+        {
+          "id": "891905275084",
+          "ref": "CT-0278",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891905275084"
+        },
+        {
+          "id": "892048748792",
+          "ref": "CT-0136",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892048748792"
+        },
+        {
+          "id": "892048836803",
+          "ref": "CT-0298",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892048836803"
+        },
+        {
+          "id": "892049108163",
+          "ref": "CT-0151",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049108163"
+        },
+        {
+          "id": "892049406187",
+          "ref": "CT-0145",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049406187"
+        },
+        {
+          "id": "892049500350",
+          "ref": "CT-0280",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049500350"
+        },
+        {
+          "id": "892049711341",
+          "ref": "CT-0306",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049711341"
+        },
+        {
+          "id": "892049787098",
+          "ref": "CT-0027",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049787098"
+        },
+        {
+          "id": "892049789162",
+          "ref": "CT-0134",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049789162"
+        },
+        {
+          "id": "892049993952",
+          "ref": "CT-0140",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049993952"
+        },
+        {
+          "id": "892050088140",
+          "ref": "CT-0030",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892050088140"
+        },
+        {
+          "id": "892050090225",
+          "ref": "CT-0123",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892050090225"
+        },
+        {
+          "id": "892104017141",
+          "ref": "CT-0146",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892104017141"
+        },
+        {
+          "id": "892107068619",
+          "ref": "CT-0311",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892107068619"
+        },
+        {
+          "id": "892109850836",
+          "ref": "CT-0201",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892109850836"
+        },
+        {
+          "id": "892114973885",
+          "ref": "CT-0079",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892114973885"
+        },
+        {
+          "id": "892116023486",
+          "ref": "CT-0118",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892116023486"
+        },
+        {
+          "id": "892116125920",
+          "ref": "CT-0274",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892116125920"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "area": "Deals",
+      "check": "Stale open deals (no activity in 45+ days)",
+      "severity": "Medium",
+      "impact": "Dead deals inflate pipeline value and win-rate denominators.",
+      "fix": "Stale-deal workflow: task at 30 days, auto close-lost review at 60.",
+      "records": [
+        {
+          "id": "526888667356",
+          "ref": "DL-017",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526888667356",
+          "note": "last activity 2026-07-22"
+        },
+        {
+          "id": "526892109008",
+          "ref": "DL-019",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526892109008",
+          "note": "last activity 2026-07-11"
+        },
+        {
+          "id": "526952265955",
+          "ref": "DL-060",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526952265955",
+          "note": "last activity 2026-07-29"
+        },
+        {
+          "id": "526959443130",
+          "ref": "DL-025",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526959443130",
+          "note": "last activity 2026-08-24"
+        },
+        {
+          "id": "527139898600",
+          "ref": "DL-014",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/527139898600",
+          "note": "last activity 2026-08-19"
+        },
+        {
+          "id": "527329051881",
+          "ref": "DL-007",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/527329051881",
+          "note": "last activity 2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "area": "Deals",
+      "check": "Deals with no company association",
+      "severity": "Medium",
+      "impact": "Revenue can't be attributed to an account; company-level reporting incomplete.",
+      "fix": "Associate to the buying company; require company on deal create.",
+      "records": [
+        {
+          "id": "526966659316",
+          "ref": "DL-038",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526966659316",
+          "note": "Lakewood Home Care — Seat expansion"
+        },
+        {
+          "id": "526998910157",
+          "ref": "DL-011",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526998910157",
+          "note": "Riverbend Heating & Air — Annual plan"
+        },
+        {
+          "id": "527139898607",
+          "ref": "DL-057",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/527139898607",
+          "note": "Oakridge Home Care — Pro upgrade"
+        }
+      ]
+    },
+    {
+      "id": "D6",
+      "area": "Deals",
+      "check": "Deals with no contact association",
+      "severity": "Medium",
+      "impact": "No buyer to follow up with; contact-level attribution and lifecycle sync fail.",
+      "fix": "Associate the primary buyer; require a contact on deal create.",
+      "records": [
+        {
+          "id": "526888667359",
+          "ref": "DL-026",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526888667359",
+          "note": "Clearwater Roofing — New subscription"
+        },
+        {
+          "id": "526950450404",
+          "ref": "DL-047",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526950450404",
+          "note": "Summit Home Care — Annual plan"
+        },
+        {
+          "id": "526966659316",
+          "ref": "DL-038",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526966659316",
+          "note": "Lakewood Home Care — Seat expansion"
+        },
+        {
+          "id": "526998910157",
+          "ref": "DL-011",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/526998910157",
+          "note": "Riverbend Heating & Air — Annual plan"
+        },
+        {
+          "id": "527139898607",
+          "ref": "DL-057",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-3/527139898607",
+          "note": "Oakridge Home Care — Pro upgrade"
+        }
+      ]
+    },
+    {
+      "id": "K1",
+      "area": "Companies",
+      "check": "Duplicate companies (same domain)",
+      "severity": "Medium",
+      "impact": "Contacts/deals split across two records; account reporting double-counts.",
+      "fix": "Merge into the record holding the contacts; enable the company-domain dedupe setting.",
+      "records": [
+        {
+          "id": "453239317727",
+          "ref": "CO-D2",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/453239317727",
+          "note": "duplicate of \"Highland Roofing\" (highlandroofing.example.com)"
+        },
+        {
+          "id": "452858594540",
+          "ref": "CO-D11",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452858594540",
+          "note": "duplicate of \"Pinecrest Pest Control\" (pinecrestpestcontrol.example.com)"
+        },
+        {
+          "id": "453063098567",
+          "ref": "CO-D27",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/453063098567",
+          "note": "duplicate of \"Stonebridge Home Care\" (stonebridgehomecare.example.com)"
+        }
+      ]
+    },
+    {
+      "id": "K2",
+      "area": "Companies",
+      "check": "Missing number of employees",
+      "severity": "Medium",
+      "impact": "Company-size criterion in lead scoring can't fire; segmentation by size breaks.",
+      "fix": "Enrich (HubSpot Insights / Breeze Intelligence) or require on trial sign-up.",
+      "records": [
+        {
+          "id": "452721289408",
+          "ref": "CO-055",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452721289408",
+          "note": "Maple Leaf Roofing"
+        },
+        {
+          "id": "452768843977",
+          "ref": "CO-018",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452768843977",
+          "note": "Metro Landscaping"
+        },
+        {
+          "id": "452772521206",
+          "ref": "CO-039",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452772521206",
+          "note": "Maple Leaf Pest Control"
+        },
+        {
+          "id": "452776053971",
+          "ref": "CO-021",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452776053971",
+          "note": "Bluewave Pest Control"
+        },
+        {
+          "id": "452785019103",
+          "ref": "CO-044",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452785019103",
+          "note": "Apex Home Care"
+        },
+        {
+          "id": "452799468752",
+          "ref": "CO-053",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452799468752",
+          "note": "Pinecrest Cleaning Co"
+        },
+        {
+          "id": "452801237202",
+          "ref": "CO-049",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452801237202",
+          "note": "Brightpath Plumbing"
+        },
+        {
+          "id": "452804905154",
+          "ref": "CO-002",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452804905154",
+          "note": "Vantage Roofing"
+        },
+        {
+          "id": "452806726886",
+          "ref": "CO-037",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452806726886",
+          "note": "Harborview Pest Control"
+        },
+        {
+          "id": "452842369230",
+          "ref": "CO-056",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452842369230",
+          "note": "Highland Cleaning Co"
+        },
+        {
+          "id": "452842369232",
+          "ref": "CO-060",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452842369232",
+          "note": "Foothill Heating & Air"
+        },
+        {
+          "id": "453230475452",
+          "ref": "CO-009",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/453230475452",
+          "note": "Cedarline Landscaping"
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "area": "Contacts",
+      "check": "HubSpot default sample contacts still present",
+      "severity": "Low",
+      "impact": "Fake records in every count and list; a sign onboarding cleanup never happened.",
+      "fix": "Delete.",
+      "records": [
+        {
+          "id": "892018916546",
+          "ref": null,
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892018916546",
+          "note": "bh@hubspot.com"
+        },
+        {
+          "id": "892026312890",
+          "ref": null,
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892026312890",
+          "note": "emailmaria@hubspot.com"
+        }
+      ]
+    },
+    {
+      "id": "C8",
+      "area": "Contacts",
+      "check": "Phone numbers not in the dominant format (000-000-0000)",
+      "severity": "Low",
+      "impact": "Breaks click-to-call / SMS integrations and duplicate matching on phone.",
+      "fix": "Normalise to E.164 (+1XXXXXXXXXX) in one bulk update; enforce on forms.",
+      "records": [
+        {
+          "id": "891824377023",
+          "ref": "CT-0051",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891824377023",
+          "note": "(555) 010-0051"
+        },
+        {
+          "id": "891824380136",
+          "ref": "CT-0289",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891824380136",
+          "note": "(555) 010-0289"
+        },
+        {
+          "id": "891896195311",
+          "ref": "CT-0006",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891896195311",
+          "note": "(555) 010-0006"
+        },
+        {
+          "id": "891896195316",
+          "ref": "CT-0012",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891896195316",
+          "note": "(555) 010-0012"
+        },
+        {
+          "id": "891896200392",
+          "ref": "CT-0249",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891896200392",
+          "note": "5550100249"
+        },
+        {
+          "id": "891913861364",
+          "ref": "CT-0087",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891913861364",
+          "note": "(555) 010-0087"
+        },
+        {
+          "id": "891934770417",
+          "ref": "CT-0110",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/891934770417",
+          "note": "5550100110"
+        },
+        {
+          "id": "892031711433",
+          "ref": "CT-0018",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892031711433",
+          "note": "5550100018"
+        },
+        {
+          "id": "892033062127",
+          "ref": "CT-0270",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892033062127",
+          "note": "5550100270"
+        },
+        {
+          "id": "892033469638",
+          "ref": "CT-0022",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892033469638",
+          "note": "(555) 010-0022"
+        },
+        {
+          "id": "892033471680",
+          "ref": "CT-0154",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892033471680",
+          "note": "5550100154"
+        },
+        {
+          "id": "892033570029",
+          "ref": "CT-0131",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892033570029",
+          "note": "+15550100131"
+        },
+        {
+          "id": "892033570033",
+          "ref": "CT-0142",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892033570033",
+          "note": "5550100142"
+        },
+        {
+          "id": "892033572066",
+          "ref": "CT-0248",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892033572066",
+          "note": "+15550100248"
+        },
+        {
+          "id": "892046020797",
+          "ref": "CT-0048",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892046020797",
+          "note": "+15550100048"
+        },
+        {
+          "id": "892046022875",
+          "ref": "CT-0257",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892046022875",
+          "note": "(555) 010-0257"
+        },
+        {
+          "id": "892047773912",
+          "ref": "CT-0115",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892047773912",
+          "note": "(555) 010-0115"
+        },
+        {
+          "id": "892047775956",
+          "ref": "CT-0267",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892047775956",
+          "note": "+15550100267"
+        },
+        {
+          "id": "892048750779",
+          "ref": "CT-0216",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892048750779",
+          "note": "+15550100216"
+        },
+        {
+          "id": "892048836810",
+          "ref": "CT-0310",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892048836810",
+          "note": "+15550100039"
+        },
+        {
+          "id": "892049210588",
+          "ref": "CT-0013",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049210588",
+          "note": "+15550100013"
+        },
+        {
+          "id": "892049211586",
+          "ref": "CT-0039",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049211586",
+          "note": "+15550100039"
+        },
+        {
+          "id": "892049305799",
+          "ref": "CT-0127",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049305799",
+          "note": "+15550100127"
+        },
+        {
+          "id": "892049497309",
+          "ref": "CT-0111",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049497309",
+          "note": "(555) 010-0111"
+        },
+        {
+          "id": "892049609934",
+          "ref": "CT-0124",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049609934",
+          "note": "+15550100124"
+        },
+        {
+          "id": "892049791164",
+          "ref": "CT-0250",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049791164",
+          "note": "(555) 010-0250"
+        },
+        {
+          "id": "892049885373",
+          "ref": "CT-0031",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892049885373",
+          "note": "+15550100031"
+        },
+        {
+          "id": "892050367730",
+          "ref": "CT-0152",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892050367730",
+          "note": "+15550100152"
+        },
+        {
+          "id": "892050370752",
+          "ref": "CT-0245",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892050370752",
+          "note": "5550100245"
+        },
+        {
+          "id": "892106962140",
+          "ref": "CT-0133",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892106962140",
+          "note": "5550100133"
+        },
+        {
+          "id": "892106962150",
+          "ref": "CT-0143",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892106962150",
+          "note": "(555) 010-0143"
+        },
+        {
+          "id": "892107136245",
+          "ref": "CT-0098",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892107136245",
+          "note": "(555) 010-0098"
+        },
+        {
+          "id": "892107240667",
+          "ref": "CT-0069",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892107240667",
+          "note": "+15550100069"
+        },
+        {
+          "id": "892108075197",
+          "ref": "CT-0073",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892108075197",
+          "note": "(555) 010-0073"
+        },
+        {
+          "id": "892109760707",
+          "ref": "CT-0121",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892109760707",
+          "note": "+15550100121"
+        },
+        {
+          "id": "892109848807",
+          "ref": "CT-0045",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892109848807",
+          "note": "5550100045"
+        },
+        {
+          "id": "892116125920",
+          "ref": "CT-0274",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892116125920",
+          "note": "5550100274"
+        },
+        {
+          "id": "892116400348",
+          "ref": "CT-0072",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892116400348",
+          "note": "5550100072"
+        },
+        {
+          "id": "892116400370",
+          "ref": "CT-0096",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892116400370",
+          "note": "+15550100096"
+        },
+        {
+          "id": "892116401366",
+          "ref": "CT-0125",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-1/892116401366",
+          "note": "(555) 010-0125"
+        }
+      ],
+      "detail": {
+        "000-000-0000": 268,
+        "(000) 000-0000": 14,
+        "0000000000": 11,
+        "+10000000000": 15
+      }
+    },
+    {
+      "id": "D7",
+      "area": "Deals",
+      "check": "Closed deals with a close date in the future",
+      "severity": "Low",
+      "impact": "Closed revenue lands in the wrong period.",
+      "fix": "Set close date to the actual close.",
+      "records": []
+    },
+    {
+      "id": "K3",
+      "area": "Companies",
+      "check": "Vertical stored as free text: spelling variants of the same value",
+      "severity": "Low",
+      "impact": "Reports split one industry into several rows; industry-based scoring/segmentation misses records.",
+      "fix": "Convert to a dropdown property with a fixed list; bulk-map existing values.",
+      "records": [
+        {
+          "id": "452799468751",
+          "ref": "CO-050",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452799468751",
+          "note": "\"hvac\" → \"HVAC\""
+        },
+        {
+          "id": "452882025681",
+          "ref": "CO-014",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452882025681",
+          "note": "\"hvac\" → \"HVAC\""
+        },
+        {
+          "id": "452865843392",
+          "ref": "CO-017",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452865843392",
+          "note": "\"home health care\" → \"Home Healthcare\""
+        },
+        {
+          "id": "452867622098",
+          "ref": "CO-041",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452867622098",
+          "note": "\"home health care\" → \"Home Healthcare\""
+        }
+      ],
+      "detail": {
+        "distinct_values": [
+          "Cleaning Services",
+          "Electrical",
+          "HVAC",
+          "Heating & Cooling",
+          "Home Healthcare",
+          "Janitorial",
+          "Landscaping",
+          "Pest Control",
+          "Plumbing",
+          "Roofing",
+          "home health care",
+          "hvac"
+        ],
+        "note": "Normalisation only catches spelling variants. Synonyms (e.g. a different word for the same trade) need a human mapping review of the distinct values list."
+      }
+    },
+    {
+      "id": "K4",
+      "area": "Companies",
+      "check": "Companies with no contacts",
+      "severity": "Low",
+      "impact": "Usually leftover duplicates or bad imports; clutter account lists.",
+      "fix": "Merge if duplicate, otherwise review/delete.",
+      "records": [
+        {
+          "id": "452858594540",
+          "ref": "CO-D11",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/452858594540",
+          "note": "Pinecrest Pest Control LLC"
+        },
+        {
+          "id": "453063098567",
+          "ref": "CO-D27",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/453063098567",
+          "note": "Stonebridge Home Care LLC"
+        },
+        {
+          "id": "453239317727",
+          "ref": "CO-D2",
+          "url": "https://app-eu1.hubspot.com/contacts/149557707/record/0-2/453239317727",
+          "note": "Highland Roofing LLC"
+        }
+      ]
+    }
+  ]
+}

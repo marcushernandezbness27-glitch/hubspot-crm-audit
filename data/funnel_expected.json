@@ -1,0 +1,31 @@
+{
+  "computed_at": "2026-10-16T03:02:39.961Z",
+  "method": "reached at least stage = max(current stage, any stage with a date-entered)",
+  "rows": [
+    {
+      "stage": "lead",
+      "reached": 282,
+      "conv": "—"
+    },
+    {
+      "stage": "marketingqualifiedlead",
+      "reached": 234,
+      "conv": "83.0%"
+    },
+    {
+      "stage": "salesqualifiedlead",
+      "reached": 196,
+      "conv": "83.8%"
+    },
+    {
+      "stage": "opportunity",
+      "reached": 180,
+      "conv": "91.8%"
+    },
+    {
+      "stage": "customer",
+      "reached": 95,
+      "conv": "52.8%"
+    }
+  ]
+}

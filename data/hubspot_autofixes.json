@@ -1,0 +1,9 @@
+[
+  {
+    "ref": "CT-0276",
+    "issue": "lifecycle_behind",
+    "now": "customer",
+    "by": "deals-lifecycle-sync;dealId=526961284328",
+    "at": "2026-10-15T10:36:14.108Z"
+  }
+]

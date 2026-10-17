@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-10-15T14:47:25.431Z",
+  "summary": {
+    "checked": 304,
+    "exact_match": 304,
+    "hubspot_bands_all": {
+      "Low": 208,
+      "Medium": 75,
+      "High": 21
+    },
+    "model_bands_all": {
+      "Not ready": 155,
+      "MQL": 57,
+      "Nurture": 92
+    },
+    "mql_prospects": 41,
+    "mql_customers": 16,
+    "min": 7,
+    "max": 95,
+    "avg": 41.69
+  },
+  "mismatches": []
+}

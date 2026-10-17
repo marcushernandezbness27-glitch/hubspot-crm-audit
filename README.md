@@ -23,5 +23,12 @@ All data is **SIMULATED** and generated with deliberate problems.
 
 ## Status
 - [x] Data generated; answer key verified (13/13 countable issues match)
-- [ ] Developer test account created; check that lead scoring, workflows and A/B tests are available
-- [ ] Custom properties created, then import
+- [x] Developer test account **FieldFlow Demo (149557707)**: lead scoring, workflows, A/B tests and custom reports all available
+- [x] Loaded via API (`scripts/load_to_hubspot.mjs`): 63 companies, 311 contacts, 63 deals; HubSpot blocked 3 invalid emails and 4 duplicates (see the load outcome in the answer key)
+- [x] Part A audit run (`scripts/audit_hubspot.mjs`, HubSpot API only): 21 checks → [AUDIT_FINDINGS.md](AUDIT_FINDINGS.md). Scored (`scripts/score_audit.mjs`): **133 of 136 seeded issues found (97.8%)**; 3 misses = industry synonyms (normalisation can't map different words); 8 extra flags, all explained (7 knock-on + 1 genuine unseeded same-name duplicate), 0 unexplained. HubSpot's deal lifecycle sync auto-fixed 1 seeded conflict (CT-0276).
+- [x] HubSpot-native evidence: 9 screenshots in `screenshots/` plus [HUBSPOT_NATIVE_VS_AUDIT.md](HUBSPOT_NATIVE_VS_AUDIT.md). Both saved views match the audit exactly (5 past-due deals, the same 5 lifecycle-behind contacts)
+- [x] Remediation (`scripts/remediate.mjs`, dry run, then 34/34 actions applied) and re-audit: **141 → 69 flagged records (High 28 → 12, Low 49 → 0)**. [REMEDIATION_RESULTS.md](REMEDIATION_RESULTS.md). The rest are rep, source-system or enrichment decisions, by design
+- [x] Part B: lead score (304/304 verified, [SCORING_MODEL.md](SCORING_MODEL.md)); 3 live-tested workflows ([WORKFLOWS.md](WORKFLOWS.md)); 6-email nurture with A/B test, branch and goal, all proven ([NURTURE_PLAN.md](NURTURE_PLAN.md)); revenue dashboard (screenshots 10–15)
+- [x] Case study: [CASE_STUDY.md](CASE_STUDY.md) and `case-study-entry.draft.ts`
+- [ ] Part C: HubSpot Academy certifications (Marcus)
+- [ ] Publish: commit and push the repo, make it public, add the site entry

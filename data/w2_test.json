@@ -1,0 +1,129 @@
+{
+  "deal": "527302293749",
+  "dealname": "Willow Creek Roofing — Annual plan",
+  "company": "Willow Creek Roofing",
+  "closed_at": "2026-10-16T00:30:05.933Z",
+  "before": [
+    {
+      "id": "892116023489",
+      "ref": "CT-0126",
+      "name": "Robin Rossi",
+      "stage": "opportunity",
+      "onDeal": false
+    },
+    {
+      "id": "892033570029",
+      "ref": "CT-0131",
+      "name": "Casey Novak",
+      "stage": "opportunity",
+      "onDeal": false
+    },
+    {
+      "id": "892049305799",
+      "ref": "CT-0127",
+      "name": "Emerson Fischer",
+      "stage": "opportunity",
+      "onDeal": false
+    },
+    {
+      "id": "892116401366",
+      "ref": "CT-0125",
+      "name": "Jesse Lund",
+      "stage": "opportunity",
+      "onDeal": true
+    },
+    {
+      "id": "891205071067",
+      "ref": "CT-0128",
+      "name": "Kendall Kowalski",
+      "stage": "opportunity",
+      "onDeal": false
+    },
+    {
+      "id": "892049406176",
+      "ref": "CT-0129",
+      "name": "Kendall Nguyen",
+      "stage": "opportunity",
+      "onDeal": false
+    },
+    {
+      "id": "892108075243",
+      "ref": "CT-0130",
+      "name": "Emerson Diaz",
+      "stage": "opportunity",
+      "onDeal": false
+    }
+  ],
+  "after": [
+    {
+      "id": "892116023489",
+      "ref": "CT-0126",
+      "name": "Robin Rossi",
+      "stage": "opportunity",
+      "onDeal": false,
+      "now": "customer",
+      "by": "AUTOMATION_PLATFORM enrollmentId:5525122689265",
+      "at": "2026-10-16T00:30:39.587Z"
+    },
+    {
+      "id": "892033570029",
+      "ref": "CT-0131",
+      "name": "Casey Novak",
+      "stage": "opportunity",
+      "onDeal": false,
+      "now": "customer",
+      "by": "AUTOMATION_PLATFORM enrollmentId:5525044400320",
+      "at": "2026-10-16T00:30:41.389Z"
+    },
+    {
+      "id": "892049305799",
+      "ref": "CT-0127",
+      "name": "Emerson Fischer",
+      "stage": "opportunity",
+      "onDeal": false,
+      "now": "customer",
+      "by": "AUTOMATION_PLATFORM enrollmentId:5524779031751",
+      "at": "2026-10-16T00:30:39.626Z"
+    },
+    {
+      "id": "892116401366",
+      "ref": "CT-0125",
+      "name": "Jesse Lund",
+      "stage": "opportunity",
+      "onDeal": true,
+      "now": "customer",
+      "by": "DEALS deals-lifecycle-sync",
+      "at": "2026-10-16T00:30:07.371Z"
+    },
+    {
+      "id": "891205071067",
+      "ref": "CT-0128",
+      "name": "Kendall Kowalski",
+      "stage": "opportunity",
+      "onDeal": false,
+      "now": "customer",
+      "by": "AUTOMATION_PLATFORM enrollmentId:5525212956860",
+      "at": "2026-10-16T00:30:41.243Z"
+    },
+    {
+      "id": "892049406176",
+      "ref": "CT-0129",
+      "name": "Kendall Nguyen",
+      "stage": "opportunity",
+      "onDeal": false,
+      "now": "customer",
+      "by": "AUTOMATION_PLATFORM enrollmentId:5525035370718",
+      "at": "2026-10-16T00:30:41.104Z"
+    },
+    {
+      "id": "892108075243",
+      "ref": "CT-0130",
+      "name": "Emerson Diaz",
+      "stage": "opportunity",
+      "onDeal": false,
+      "now": "customer",
+      "by": "AUTOMATION_PLATFORM enrollmentId:5525044398322",
+      "at": "2026-10-16T00:30:39.998Z"
+    }
+  ]
+}

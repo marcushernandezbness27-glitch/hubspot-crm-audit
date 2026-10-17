@@ -1,0 +1,242 @@
+{
+  "tp": 133,
+  "fn": 3,
+  "fp": 8,
+  "byCause": {
+    "unseeded": 1,
+    "knock-on": 7
+  },
+  "unexplained": [],
+  "rows": [
+    {
+      "id": "C1",
+      "check": "Duplicate contacts (same mailbox ignoring digits, or same name at same company)",
+      "expected": 4,
+      "found": 5,
+      "hits": 4,
+      "missed": [],
+      "extras": [
+        {
+          "ref": "CT-0077",
+          "why": "unseeded: same full name at the same company (genuine possible duplicate)"
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "check": "Lifecycle stage ahead of reality (Customer with no closed-won deal at their company)",
+      "expected": 5,
+      "found": 7,
+      "hits": 5,
+      "missed": [],
+      "extras": [
+        {
+          "ref": "CT-0268",
+          "why": "knock-on: a Customer whose company link was removed (orphan seeding)"
+        },
+        {
+          "ref": "CT-0274",
+          "why": "knock-on: a Customer whose company link was removed (orphan seeding)"
+        }
+      ]
+    },
+    {
+      "id": "C9",
+      "check": "Lifecycle stage behind reality (company has a closed-won deal, contact not Customer)",
+      "expected": 5,
+      "found": 5,
+      "hits": 5,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "D1",
+      "check": "Open deals with a close date in the past",
+      "expected": 5,
+      "found": 5,
+      "hits": 5,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "D3",
+      "check": "Deals missing an amount",
+      "expected": 4,
+      "found": 4,
+      "hits": 4,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "D4",
+      "check": "Closed-won deals with $0 amount",
+      "expected": 2,
+      "found": 2,
+      "hits": 2,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "C2",
+      "check": "Missing email address",
+      "expected": 4,
+      "found": 4,
+      "hits": 4,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "C3",
+      "check": "Malformed email address",
+      "expected": 0,
+      "found": 0,
+      "hits": 0,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "C4",
+      "check": "Junk / test records",
+      "expected": 3,
+      "found": 3,
+      "hits": 3,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "C6",
+      "check": "Orphan contacts (no company association)",
+      "expected": 9,
+      "found": 9,
+      "hits": 9,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "C7",
+      "check": "Missing job title",
+      "expected": 18,
+      "found": 19,
+      "hits": 18,
+      "missed": [],
+      "extras": [
+        {
+          "ref": "CT-0311",
+          "why": "knock-on: duplicate record inherited the original CT-0030's value"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "check": "Stale open deals (no activity in 45+ days)",
+      "expected": 6,
+      "found": 6,
+      "hits": 6,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "D5",
+      "check": "Deals with no company association",
+      "expected": 3,
+      "found": 3,
+      "hits": 3,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "D6",
+      "check": "Deals with no contact association",
+      "expected": 5,
+      "found": 5,
+      "hits": 5,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "K1",
+      "check": "Duplicate companies (same domain)",
+      "expected": 3,
+      "found": 3,
+      "hits": 3,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "K2",
+      "check": "Missing number of employees",
+      "expected": 12,
+      "found": 12,
+      "hits": 12,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "C5",
+      "check": "HubSpot default sample contacts still present",
+      "expected": 2,
+      "found": 2,
+      "hits": 2,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "C8",
+      "check": "Phone numbers not in the dominant format (000-000-0000)",
+      "expected": 39,
+      "found": 40,
+      "hits": 39,
+      "missed": [],
+      "extras": [
+        {
+          "ref": "CT-0310",
+          "why": "knock-on: duplicate record inherited the original CT-0039's value"
+        }
+      ]
+    },
+    {
+      "id": "D7",
+      "check": "Closed deals with a close date in the future",
+      "expected": 0,
+      "found": 0,
+      "hits": 0,
+      "missed": [],
+      "extras": []
+    },
+    {
+      "id": "K3",
+      "check": "Vertical stored as free text: spelling variants of the same value",
+      "expected": 7,
+      "found": 4,
+      "hits": 4,
+      "missed": [
+        "CO-031",
+        "CO-057",
+        "CO-059"
+      ],
+      "extras": []
+    },
+    {
+      "id": "K4",
+      "check": "Companies with no contacts",
+      "expected": 0,
+      "found": 3,
+      "hits": 0,
+      "missed": [],
+      "extras": [
+        {
+          "ref": "CO-D11",
+          "why": "knock-on: duplicate company shell holds no contacts"
+        },
+        {
+          "ref": "CO-D27",
+          "why": "knock-on: duplicate company shell holds no contacts"
+        },
+        {
+          "ref": "CO-D2",
+          "why": "knock-on: duplicate company shell holds no contacts"
+        }
+      ]
+    }
+  ]
+}

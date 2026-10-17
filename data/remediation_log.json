@@ -1,0 +1,286 @@
+{
+  "applied_at": "2026-10-15T14:04:09.105Z",
+  "results": [
+    {
+      "fix": "C1",
+      "action": "merge contact",
+      "target": "CT-0309 → CT-0108",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C1",
+      "action": "merge contact",
+      "target": "CT-0310 → CT-0039",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C1",
+      "action": "merge contact",
+      "target": "CT-0312 → CT-0029",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C1",
+      "action": "merge contact",
+      "target": "CT-0311 → CT-0030",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C4",
+      "action": "delete contact",
+      "target": "CT-0317",
+      "status": 204,
+      "ok": true
+    },
+    {
+      "fix": "C4",
+      "action": "delete contact",
+      "target": "CT-0316",
+      "status": 204,
+      "ok": true
+    },
+    {
+      "fix": "C4",
+      "action": "delete contact",
+      "target": "CT-0318",
+      "status": 204,
+      "ok": true
+    },
+    {
+      "fix": "C5",
+      "action": "delete contact",
+      "target": "bh@hubspot.com",
+      "status": 204,
+      "ok": true
+    },
+    {
+      "fix": "C5",
+      "action": "delete contact",
+      "target": "emailmaria@hubspot.com",
+      "status": 204,
+      "ok": true
+    },
+    {
+      "fix": "K1",
+      "action": "merge company",
+      "target": "CO-D2 → Highland Roofing",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "K1",
+      "action": "merge company",
+      "target": "CO-D11 → Pinecrest Pest Control",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "K1",
+      "action": "merge company",
+      "target": "CO-D27 → Stonebridge Home Care",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C9",
+      "action": "set lifecycle",
+      "target": "CT-0225",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C9",
+      "action": "set lifecycle",
+      "target": "CT-0279",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C9",
+      "action": "set lifecycle",
+      "target": "CT-0171",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C9",
+      "action": "set lifecycle",
+      "target": "CT-0267",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C9",
+      "action": "set lifecycle",
+      "target": "CT-0172",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C10",
+      "action": "reset lifecycle",
+      "target": "CT-0051",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C10",
+      "action": "reset lifecycle",
+      "target": "CT-0255",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C10",
+      "action": "reset lifecycle",
+      "target": "CT-0268",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C10",
+      "action": "reset lifecycle",
+      "target": "CT-0052",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C10",
+      "action": "reset lifecycle",
+      "target": "CT-0161",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C10",
+      "action": "reset lifecycle",
+      "target": "CT-0146",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C10",
+      "action": "reset lifecycle",
+      "target": "CT-0274",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C8",
+      "action": "normalise phones",
+      "target": "100 contacts",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C8",
+      "action": "normalise phones",
+      "target": "100 contacts",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "C8",
+      "action": "normalise phones",
+      "target": "93 contacts",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "K3",
+      "action": "map vertical",
+      "target": "Oakridge Heating & Air",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "K3",
+      "action": "map vertical",
+      "target": "Cedarline Heating & Air",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "K3",
+      "action": "map vertical",
+      "target": "Pinecrest Heating & Air",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "K3",
+      "action": "map vertical",
+      "target": "Harborview Home Care",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "K3",
+      "action": "map vertical",
+      "target": "Maple Leaf Home Care",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "K3",
+      "action": "map vertical",
+      "target": "Redstone Cleaning Co",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "fix": "K3",
+      "action": "map vertical",
+      "target": "Riverbend Cleaning Co",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "review": [
+    {
+      "fix": "C1",
+      "outcome": "REVIEW",
+      "target": "CT-0077 / CT-0081",
+      "why": "same name and mailbox pattern but different phones (555-010-0077 vs 555-010-0081). Could be two people; needs a human"
+    }
+  ],
+  "not_fixed": [
+    [
+      "D1/D2",
+      "Past-due and stale open deals",
+      "Rep decision (re-date, or close-lost). Prevention: a workflow creates a review task 7 days after the close date passes."
+    ],
+    [
+      "D3/D4",
+      "Missing and $0 deal amounts",
+      "Needs the contract or billing system as the source. Prevention: amount required from 'Presentation scheduled' onward."
+    ],
+    [
+      "C2/C7/K2",
+      "Missing email, job title, employee count",
+      "Enrichment or asking the contact. Not invented."
+    ],
+    [
+      "C6/D5/D6",
+      "Orphan contacts, deals with no company or contact",
+      "Needs a sales-ops decision on the right association."
+    ]
+  ],
+  "follow_up": [
+    {
+      "at": "2026-10-15T14:05:06.206Z",
+      "fix": "C8",
+      "targets": [
+        "CT-0029",
+        "CT-0030",
+        "CT-0108"
+      ],
+      "status": 200,
+      "why": "Merge survivors: HubSpot completes merges asynchronously; the merge finished after the phone batch update and wrote the old phone format back (property history source MERGE_OBJECTS). Runbook: merge first, wait for completion, then normalise."
+    }
+  ]
+}
